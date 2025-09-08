@@ -30,6 +30,7 @@
     slots: [document.getElementById('slot0'), document.getElementById('slot1'), document.getElementById('slot2')],
     slotLabels: [document.getElementById('slot0label'), document.getElementById('slot1label'), document.getElementById('slot2label')],
     interpretBtn: document.getElementById('interpretBtn'),
+    pauseBtn: document.getElementById('pauseBtn'), 
     pdfBtn: document.getElementById('pdfBtn'),
     resetBtn: document.getElementById('resetBtn'),
     readingTitle: document.getElementById('readingTitle'),
@@ -53,7 +54,8 @@
   // ⬇️ aggiungi queste due righe
   DOM.interpretBtn.textContent = (lang === 'it') ? 'Interpretazione' : 'interpretation';
   DOM.pdfBtn.textContent       = (lang === 'it') ? 'Genera PDF'     : 'Generate PDF';
-
+  DOM.pauseBtn.textContent = (lang === 'it') ? 'Pausa' : 'Pause';
+  DOM.pauseBtn.setAttribute('aria-label', DOM.pauseBtn.textContent);
   // opzionale accessibilità:
   DOM.interpretBtn.setAttribute('aria-label', DOM.interpretBtn.textContent);
   DOM.pdfBtn.setAttribute('aria-label', DOM.pdfBtn.textContent);
@@ -199,24 +201,62 @@
     DOM.pdfBtn.disabled = false;
   }
 
-  function playQueue(urls) {
-    if (!urls || !urls.length) return;
-    const audio = DOM.player;
-    let i = 0;
-    audio.onended = () => {
-      i++;
-      if (i < urls.length) {
-        audio.src = urls[i];
-        audio.play().catch(() => {});
-      }
-    };
-    audio.onerror = () => {
-      // skip se file mancante
-      audio.onended();
-    };
-    audio.src = urls[0];
-    audio.play().catch(() => {});
+ function playQueue(urls) {
+  if (!urls || !urls.length) return;
+  const audio = DOM.player;
+  let i = 0;
+
+  // abilita il pulsante pausa ad inizio riproduzione
+  DOM.pauseBtn.disabled = false;
+  DOM.pauseBtn.textContent = (lang === 'it') ? 'Pausa' : 'Pause';
+
+  audio.onended = () => {
+    i++;
+    if (i < urls.length) {
+      audio.src = urls[i];
+      audio.play().catch(() => {});
+    } else {
+      // finita la coda: disabilita pausa
+      audio.onended = null;
+      audio.onerror = null;
+      DOM.pauseBtn.disabled = true;
+      DOM.pauseBtn.textContent = (lang === 'it') ? 'Pausa' : 'Pause';
+    }
+  };
+
+  audio.onerror = () => {
+    // skip se file mancante
+    audio.onended();
+  };
+
+  audio.src = urls[0];
+  audio.play().catch(() => {});
+}
+
+function stopAudio() {
+  const a = DOM.player;
+  try { a.pause(); } catch {}
+  a.onended = null;
+  a.onerror = null;
+  a.removeAttribute('src');
+  a.load(); // forza lo stop immediato
+  // disabilita e reimposta il bottone pausa
+  DOM.pauseBtn.disabled = true;
+  DOM.pauseBtn.textContent = (lang === 'it') ? 'Pausa' : 'Pause';
+}
+
+function onTogglePause() {
+  const a = DOM.player;
+  if (!a.src) return; // niente da fare se non c’è una traccia
+
+  if (a.paused) {
+    a.play().catch(()=>{});
+    DOM.pauseBtn.textContent = (lang === 'it') ? 'Pausa' : 'Pause';
+  } else {
+    a.pause();
+    DOM.pauseBtn.textContent = (lang === 'it') ? 'Riprendi' : 'Resume';
   }
+}
 
   async function onPdf() {
     try {
@@ -242,11 +282,15 @@
       alert((lang === 'it') ? 'Errore nella generazione del PDF' : 'Error generating PDF');
     }
   }
-
+function onReset() {
+  stopAudio();   // ⬅️ interrompe eventuale riproduzione
+  resetAll();
+}
   // Bind UI
   DOM.itBtn.addEventListener('click', () => initLang('it'));
   DOM.enBtn.addEventListener('click', () => initLang('en'));
-  DOM.resetBtn.addEventListener('click', () => resetAll());
+  DOM.resetBtn.addEventListener('click', onReset); 
   DOM.interpretBtn.addEventListener('click', onInterpret);
+  DOM.pauseBtn.addEventListener('click', onTogglePause);    
   DOM.pdfBtn.addEventListener('click', onPdf);
 })();
