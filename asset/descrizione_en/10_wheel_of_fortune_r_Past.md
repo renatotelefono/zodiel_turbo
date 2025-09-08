@@ -1,0 +1,2 @@
+If The Wheel of Fortune reversed appears in the past position, it recalls times when you felt stuck or overwhelmed by unfavorable circumstances. You may remember periods when external events seemed to hinder all progress, generating frustration or a sense of powerlessness.  
+This experience teaches that even times of stagnation are part of life’s cycle, and that accepting natural rhythms allows you to overcome difficulties with greater serenity.

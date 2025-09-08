@@ -1,0 +1,2 @@
+When The Hermit appears in the future position, it announces a phase of introspection, research, or deep study. You may enter a period where solitude becomes a tool for growth, allowing you to clarify goals and desires before taking new actions.  
+This card also indicates that patience will be a fundamental virtue: results will come, but only after walking the path of awareness and reflection. The future of The Hermit brings wisdom and a deeper connection with your inner truth.

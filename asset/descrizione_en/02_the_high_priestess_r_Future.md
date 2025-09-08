@@ -1,0 +1,2 @@
+When reversed High Priestess appears in the future position, it signals the risk of delays, misunderstandings, or mistakes due to lack of introspection. Without attention to your inner guidance, you may fall into self-deception or follow inauthentic paths.  
+The advice of the card is to reclaim silence and inner connection, because only through awareness and intuition can you transform uncertainty into wisdom and find the most authentic path.

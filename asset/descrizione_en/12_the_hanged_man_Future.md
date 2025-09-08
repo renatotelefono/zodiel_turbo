@@ -1,0 +1,2 @@
+When The Hanged Man appears in the future position, it foreshadows a period in which it will be necessary to pause, reflect, and perhaps temporarily give something up in order to achieve deeper growth.  
+This card indicates that the future will require patience and an open mind. Embracing suspension and a change in perspective will bring new insights and an inner transformation that paves the way for more conscious and authentic choices.

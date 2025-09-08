@@ -1,0 +1,2 @@
+In the present, The Chariot suggests that you are ready to move toward your goals with determination and courage. It is a favorable time to act, advance, and make decisive choices.  
+This card indicates that victory is possible but requires discipline, concentration, and the ability to balance opposing forces within you. Maintaining control and staying focused will be essential to turning this phase into tangible success.

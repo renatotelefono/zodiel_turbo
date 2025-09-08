@@ -1,0 +1,2 @@
+In the present, The Lovers reversed indicate that you may be facing tensions in relationships or dealing with a difficult choice that generates inner confusion.  
+This card invites you to pause and reflect, avoiding impulsive decisions and trying to restore harmony through dialogue, sincerity, and respect for your values. Ignoring these signs could lead to deeper emotional and relational complications.

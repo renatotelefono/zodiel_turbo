@@ -1,0 +1,2 @@
+When The Magician appears in the future position, it foreshadows the arrival of an important opportunity or a moment when your talent will be tested. It indicates that you will have the chance to actively shape your reality, fulfilling projects and desires.  
+However, the Magician’s future requires responsibility: his creative power must be used wisely, avoiding manipulation or excessive control. If you use your energies with balance, the Magician will open the way to a period of success, personal growth, and tangible realization of your dreams.

@@ -1,0 +1,2 @@
+When The World reversed appears in the future position, it signals the possibility of delays or partial successes. It indicates that the finish line is near but still requires effort, patience, and the willingness to close out old situations before starting new ventures.  
+The future of The World reversed suggests not forcing the timing, but working to remove blocks and misunderstandings. Once the obstacles are overcome, harmony and fulfillment will finally be achieved, opening the way to a new, more conscious life cycle.

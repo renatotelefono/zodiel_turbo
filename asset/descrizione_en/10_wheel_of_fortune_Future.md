@@ -1,0 +1,2 @@
+When The Wheel of Fortune appears in the future position, it foretells a significant turning point, a sudden change, or the arrival of unexpected opportunities. The future will be marked by movement, by the chance to close old cycles and open new ones.  
+The advice of this card is to remain open to new things and not resist change: the ability to adapt and seize the right moment will be crucial to transforming events into opportunities for success and fulfillment.

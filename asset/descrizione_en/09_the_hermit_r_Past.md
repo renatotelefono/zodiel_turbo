@@ -1,0 +1,2 @@
+If The Hermit reversed appears in the past position, it recalls moments of excessive withdrawal or inner confusion. You may remember times when you isolated yourself not to seek wisdom, but out of fear, sadness, or disillusionment.  
+This experience may have left a sense of incompleteness, but it becomes a valuable lesson: learning how to face your shadows without fleeing is the key to transforming silence into authentic growth.

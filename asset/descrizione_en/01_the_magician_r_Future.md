@@ -1,0 +1,2 @@
+When The Magician reversed appears in the future position, it warns of risks linked to poorly managed projects, unkept promises, or illusions. Obstacles may arise from lack of preparation or from people seeking to take advantage of the situation.  
+This card invites you to develop attention, caution, and self-control before starting new initiatives. The Magician reversed warns that only conscious use of inner power allows you to turn dangers into personal growth, preventing talent from being wasted in actions lacking direction.

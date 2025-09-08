@@ -1,0 +1,2 @@
+When The Devil appears in the future position, it foreshadows challenges related to bonds, dependencies, or temptations. The future may bring situations that will test your ability to maintain autonomy and integrity.  
+The message of this card is clear: recognizing and freeing yourself from inner chains is essential to avoid repeating limiting patterns. Facing the shadow with courage leads to profound transformation and lasting inner freedom.

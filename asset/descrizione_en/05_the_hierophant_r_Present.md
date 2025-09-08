@@ -1,0 +1,2 @@
+In the present, The Hierophant reversed signals spiritual confusion or conflict between your inner world and the outside environment. It may represent difficulty trusting your own inner voice, or the presence of external influences that distort your path.  
+This card invites you to question the rules you follow: do you do it out of deep conviction, or only out of habit or fear of judgment? Regaining authenticity and freeing yourself from rigid patterns will be essential to restoring balance and clarity.

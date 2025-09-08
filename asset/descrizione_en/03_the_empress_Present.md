@@ -1,0 +1,2 @@
+In the present, The Empress suggests that you are in a phase of expansion and harmony. It is the time to cultivate your creativity and take care of the people, projects, or situations you consider most precious.  
+This card indicates that prosperity is near, but requires attention, dedication, and an authentic connection with your values. The energy of The Empress invites you to trust your ability to create and nurture, bringing balance and abundance into your life.

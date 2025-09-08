@@ -1,0 +1,2 @@
+In the present, reversed High Priestess indicates difficulty listening to your inner voice or fully understanding a situation. You may feel confused or exposed to distorted or manipulated information.  
+This card invites you to seek clarity, pursue authentic truths, and avoid impulsive decisions. Reconnecting with your inner wisdom will be essential to face current challenges and regain peace and clarity.

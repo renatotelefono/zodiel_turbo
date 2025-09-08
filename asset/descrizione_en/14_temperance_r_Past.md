@@ -1,0 +1,2 @@
+If reversed Temperance appears in the past position, it recalls times when you experienced tension, conflict, or impulsive choices that led to instability. You may remember moments when lack of moderation or patience complicated delicate situations.  
+This experience represents an important lesson: recognizing the effects of imbalance helps you understand the importance of cultivating calm and measure.

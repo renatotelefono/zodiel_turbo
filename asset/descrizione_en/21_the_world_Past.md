@@ -1,0 +1,2 @@
+When The World appears in the past position, it indicates you have already experienced a moment of completion or deep satisfaction. You might recall a goal achieved, the conclusion of a project, or the closing of an important phase of your life. This card highlights how that successful experience strengthened your confidence and showed you how capable you are of finishing what you start.  
+The past of The World also represents the closing of old cycles: accepting the lessons learned then can help you move forward calmly toward new challenges.

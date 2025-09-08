@@ -1,0 +1,2 @@
+Se La Giustizia rovesciata appare nella posizione del passato, richiama esperienze di ingiustizia o di squilibrio. Potresti ricordare situazioni in cui sei stato trattato in modo scorretto o in cui hai evitato di affrontare responsabilità, con conseguenze che si sono protratte nel tempo.  
+Questa carta suggerisce di imparare dalle esperienze passate, riconoscendo come la mancanza di equilibrio o trasparenza abbia influito sulla tua crescita personale.

@@ -1,0 +1,2 @@
+If The Empress reversed appears in the past position, it recalls periods when creativity was blocked or when you felt neglected or unable to nurture projects and relationships. You may remember moments of frustration when the energy dedicated to care did not bring the expected results.  
+This experience represents a lesson on the need to cultivate inner balance before being able to support others or create abundance in your life.

@@ -1,0 +1,2 @@
+When The Empress appears in the past position, it recalls moments when creativity, care, or protection played a central role in your life. You may remember times when you brought important projects to life, nurtured relationships, or supported others with generosity.  
+This past represents a foundation of growth and harmony: knowing how to create and protect what was important allowed you to develop confidence and inner stability.

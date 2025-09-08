@@ -1,0 +1,2 @@
+In the present, The Emperor suggests taking control of your life and acting decisively. It is the time to make thoughtful choices and establish clear rules, both for yourself and for the people and situations around you.  
+This card indicates a favorable period to bring order where chaos reigns and to make decisions that require maturity and determination. The energy of the Emperor invites you to find strength in stability and confidence in your leadership and constructive abilities.

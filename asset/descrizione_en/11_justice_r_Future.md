@@ -1,0 +1,2 @@
+When Justice reversed appears in the future position, it warns of possible delays, legal obstacles, or conflicts due to lack of transparency. The consequences of wrongful actions, whether yours or others’, may emerge, requiring courage and honesty to face.  
+The advice of the card is clear: be ready to recognize the truth, even if uncomfortable, and work to restore balance and integrity. Only then can you transform a phase of instability into an opportunity for growth and inner maturity.

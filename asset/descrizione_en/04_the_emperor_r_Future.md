@@ -1,0 +1,2 @@
+When The Emperor reversed appears in the future position, it warns of possible challenges related to instability, power struggles, or difficulties carrying projects forward due to lack of organization.  
+The advice is to work on your sense of responsibility and planning ability, without falling into excessive control or disorder. Overcoming these obstacles, the future will offer the opportunity to build new stability based on balance and awareness.

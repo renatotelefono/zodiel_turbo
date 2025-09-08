@@ -1,0 +1,2 @@
+If reversed Death appears in the past position, it recalls periods in which you avoided important changes or resisted the closure of an inevitable cycle. You may remember moments when the fear of losing certainties kept you from opening up to new possibilities.  
+This experience teaches that refusing change only brings delays and obstacles, but also offers the awareness that sooner or later it is necessary to let go in order to be reborn.

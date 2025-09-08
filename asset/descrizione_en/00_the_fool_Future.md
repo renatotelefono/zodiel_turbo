@@ -1,0 +1,3 @@
+When the Fool shows up in the future position, it foreshadows novelties, journeys, or experiences that will transform your perception of the world. It can indicate the arrival of a phase of liberation from old patterns—an opportunity that will require courage and a spirit of adventure.  
+Embracing the unknown will be essential: the Fool’s future doesn’t promise certainties, but it offers possibilities for growth and renewal. Every step will be a lesson; every detour a chance to discover new parts of yourself.  
+This card invites you to consider life as a constantly evolving journey, where even the unexpected becomes an ally. If you can walk with an open heart, the Fool will become your companion in freedom and transformation.

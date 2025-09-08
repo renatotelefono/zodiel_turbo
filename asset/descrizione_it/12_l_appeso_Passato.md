@@ -1,0 +1,2 @@
+Quando L'Appeso appare nella posizione del passato, richiama momenti in cui sei stato costretto a fermarti o a rivedere il tuo approccio alla vita. Potresti ricordare periodi di sospensione, attese forzate o sacrifici che hanno portato a una nuova consapevolezza.  
+Questo passato indica che la tua forza interiore e la tua capacità di adattarti a circostanze difficili ti hanno permesso di crescere e di sviluppare una nuova visione del mondo e di te stesso.

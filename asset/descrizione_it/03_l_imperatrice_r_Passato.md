@@ -1,0 +1,2 @@
+Se L'Imperatrice rovesciata appare nella posizione del passato, richiama periodi in cui la creatività è stata bloccata o in cui ti sei sentito trascurato o incapace di nutrire progetti e relazioni. Potresti ricordare momenti di frustrazione, in cui l’energia dedicata alla cura non ha portato i risultati sperati.  
+Questa esperienza rappresenta una lezione sulla necessità di coltivare equilibrio interiore prima di poter sostenere gli altri o creare abbondanza nella propria vita.

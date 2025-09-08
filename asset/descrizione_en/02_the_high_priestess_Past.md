@@ -1,0 +1,2 @@
+When The High Priestess appears in the past position, it recalls times when you learned through observation and reflection rather than action. You may remember periods of introspection, study, or connection with your intuition.  
+This past indicates that your current wisdom and inner growth are rooted in those experiences of silence and discernment. Recognizing that path helps you understand the importance of pausing and listening before acting.

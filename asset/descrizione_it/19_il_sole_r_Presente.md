@@ -1,0 +1,2 @@
+Nel presente, Il Sole rovesciato indica che potresti essere vicino a un successo o a una fase felice, ma qualcosa ne rallenta l’arrivo o ne diminuisce l’intensità. Forse stai dubitando di te stesso o permetti a influenze esterne di oscurare il tuo entusiasmo.  
+Questa carta ti invita a coltivare fiducia, gratitudine e ottimismo. Anche se la luce non è ancora piena, il Sole è comunque presente: ritrovare la gioia nelle piccole cose e riconoscere i progressi fatti può riaccendere la tua energia vitale.

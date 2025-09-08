@@ -1,0 +1,3 @@
+If the Fool reversed appears in the past position, it recalls a period of confusion or rash choices. You may remember times when you followed instinct without listening to reason, ending up in complicated situations or on paths that didn’t yield the hoped‑for results.  
+This card doesn’t judge, but it suggests reflecting on how those experiences taught you to better weigh consequences. It often points to mistakes transformed into valuable lessons that can guide you today toward greater awareness.  
+The past of the Fool reversed speaks of scattered energy that—once recognized—can serve as a reminder not to repeat the same patterns.

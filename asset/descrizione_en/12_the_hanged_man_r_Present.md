@@ -1,0 +1,2 @@
+In the present, The Hanged Man reversed indicates that you may feel blocked or impatient, unable to accept a necessary phase of suspension. Perhaps you’re struggling against circumstances that instead call for calm and introspection.  
+This card invites you to stop and observe your resistances. Accepting the need to change perspective and release what no longer serves you will be essential to regain balance and peace of mind.

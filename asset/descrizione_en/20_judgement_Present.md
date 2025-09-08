@@ -1,0 +1,2 @@
+In the present, Judgment indicates that you are in a phase of awakening and deep reflection. It is time to bring clarity, evaluate your choices, and acknowledge the consequences of your actions.  
+This card invites you to release emotional burdens and respond to the “inner calling” that guides you toward a more authentic life. It is also a sign of opportunity: embracing change with trust can open the way to new possibilities and meaningful personal growth.

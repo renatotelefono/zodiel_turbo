@@ -1,0 +1,2 @@
+When The Sun appears in the past position, it recalls a moment when you experienced joy, accomplishment, or great inner clarity. You may remember periods of success, moments of family harmony, or happy relationships that nourished your spirit.  
+This card suggests that those bright experiences strengthened your trust in yourself and in life, creating a foundation of optimism that still supports your actions today. Recognizing that positive past helps you remember that authentic happiness is born from the balance between heart, mind, and mindful action.

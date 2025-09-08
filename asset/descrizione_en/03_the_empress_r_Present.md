@@ -1,0 +1,2 @@
+In the present, The Empress reversed indicates that you may feel drained of creative or emotional energy. Perhaps you are neglecting yourself or the people you care about, or you feel stuck in a project that cannot flourish.  
+This card invites you to take care of your inner resources, reconnect with nature and what inspires you. Only by regaining harmony and self-compassion will it be possible to unlock creativity and restore balance in your life.

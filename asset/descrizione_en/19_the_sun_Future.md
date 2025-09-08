@@ -1,0 +1,2 @@
+When The Sun appears in the future position, it heralds successes, happy moments, and important achievements. It indicates that difficulties will be overcome and that you’ll enter a phase of personal expansion and harmony.  
+The future under the Sun’s light brings opportunities for growth, recognition, and inner serenity. This card encourages you to follow the path lit by your authenticity and enthusiasm, remembering that true strength is born from trust in life and in your ability to radiate light to others.

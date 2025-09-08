@@ -1,0 +1,2 @@
+When The Lovers reversed appear in the future position, they foreshadow possible conflicts, separations, or difficulties in making decisions aligned with your values.  
+The advice of the card is to work on inner clarity and emotional authenticity before making decisive choices. Only then will it be possible to transform crises into opportunities for growth and build stronger, more sincere relationships.

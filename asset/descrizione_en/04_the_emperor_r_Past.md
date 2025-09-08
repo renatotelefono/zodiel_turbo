@@ -1,0 +1,2 @@
+If The Emperor reversed appears in the past position, it recalls moments when authority was misused or when you felt unsupported and lacking order. You may remember experiences of rigidity, imposition, or conversely, instability due to the lack of clear rules.  
+This past represents an important lesson: recognizing the negative effects of excessively authoritarian or disorganized management can guide you today to create balance and security without repeating the same mistakes.

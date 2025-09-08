@@ -1,0 +1,2 @@
+If The World reversed appears in the past position, it recalls moments when a project or path didn’t end as you hoped. There may have been interruptions, postponements, or choices that prevented you from reaching full satisfaction.  
+This card indicates that even if the experience didn’t close harmoniously, it left valuable lessons. Recognizing where you left “open doors” in the past can help you free yourself from old ties and move forward into new cycles of growth.

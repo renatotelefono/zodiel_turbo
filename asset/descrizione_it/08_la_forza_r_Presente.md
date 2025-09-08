@@ -1,0 +1,2 @@
+Nel presente, La Forza rovesciata segnala difficoltà nel mantenere autocontrollo o sicurezza interiore. Potresti sentirti sopraffatto da emozioni forti, dubbi o paure che minano la tua capacità di agire con lucidità.  
+Questa carta ti invita a rallentare, a riconoscere i tuoi limiti e a trovare supporto se necessario. Coltivare la pazienza, la gentilezza verso te stesso e la consapevolezza emotiva è fondamentale per trasformare la fragilità momentanea in forza autentica.

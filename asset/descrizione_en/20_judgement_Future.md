@@ -1,0 +1,2 @@
+When Judgment appears in the future position, it foreshadows a phase of revelations, important decisions, and liberation from the past. Significant events will lead you to make conscious choices and start anew in greater alignment with your true essence.  
+The future under the sign of Judgment promises rebirth and inner clarity, inviting you to let go of what no longer belongs in your life and build a future that is more authentic and harmonious.

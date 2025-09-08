@@ -1,0 +1,2 @@
+In the present, The Emperor reversed signals conflicts with authority, difficulties managing responsibilities, or inner resistance to rules and structures. You may feel under pressure or perceive that you have lost control over some areas of your life.  
+This card suggests reviewing how you exercise power and discipline, inviting you to balance firmness and flexibility. Regaining clarity and establishing realistic boundaries will be fundamental to avoid tension and restore a sense of inner and external stability.

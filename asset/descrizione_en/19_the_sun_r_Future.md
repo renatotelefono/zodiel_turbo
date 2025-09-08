@@ -1,0 +1,2 @@
+When The Sun reversed appears in the future position, it signals that happiness will come, but it may be delayed or require an effort of awareness to be fully welcomed. Some internal or external obstacles will need to be overcome before you can live a phase of full realization.  
+This card suggests that, despite temporary difficulties, the light will shine again. By cultivating trust and authenticity, the future will still offer you moments of joy and harmony—even if earned with more patience.

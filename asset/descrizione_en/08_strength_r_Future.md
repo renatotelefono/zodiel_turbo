@@ -1,0 +1,2 @@
+When Strength reversed appears in the future position, it warns of possible challenges linked to impulsiveness, loss of confidence, or difficulty maintaining emotional balance.  
+The advice is to work on inner awareness and self-control, gradually facing fears without denying them. Overcoming these difficulties will lead to profound growth, transforming vulnerability into a new form of inner strength, more mature and stable.

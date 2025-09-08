@@ -1,0 +1,2 @@
+If The Lovers reversed appear in the past position, they recall moments of relational crisis or poor choices that brought difficult consequences. You may remember relationships marked by misunderstandings, jealousy, or lack of emotional clarity.  
+This experience is a valuable lesson: understanding one’s mistakes and fragilities makes it possible to build more authentic and conscious bonds in the future.

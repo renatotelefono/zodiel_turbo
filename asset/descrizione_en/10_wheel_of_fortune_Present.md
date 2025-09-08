@@ -1,0 +1,2 @@
+In the present, The Wheel of Fortune indicates that you are in a moment of transition, where events can evolve quickly. This card invites you to seize opportunities as they arise and not fear changes beyond your control.  
+Recognizing the power of destiny does not mean remaining passive, but accepting that larger forces are moving your life toward new directions. Acting with flexibility and trust will allow you to transform this phase into an opportunity for growth.

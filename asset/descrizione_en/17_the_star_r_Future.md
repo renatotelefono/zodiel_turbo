@@ -1,0 +1,2 @@
+When reversed Star appears in the future position, it warns that you may face challenges that test your self-belief and faith in life. However, the message of this card is also one of encouragement: the light will return, but it requires patience and inner commitment.  
+The advice of the card is to cultivate resilience, to seek inspiration in what nourishes you spiritually, and to believe that after difficulties it is always possible to be reborn stronger and more aware.

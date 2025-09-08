@@ -1,0 +1,2 @@
+If The Magician reversed appears in the past position, it recalls a time when your abilities were not fully used or were diverted toward unconstructive goals. You may remember moments of hesitation, unfulfilled promises, or decisions influenced by illusion.  
+This card, while highlighting mistakes or distractions, carries a message of awareness: every experience of disorder or manipulation can become a lesson for better managing your resources in the present.

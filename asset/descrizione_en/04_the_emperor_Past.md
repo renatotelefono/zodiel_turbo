@@ -1,0 +1,2 @@
+When The Emperor appears in the past position, it recalls moments when you built solid foundations or took control of an important situation. You may remember a period when discipline, logic, or willpower allowed you to face challenges and achieve concrete goals.  
+This past represents the phase when your determination and ability to organize life allowed you to create security and stability. Recognizing that path helps you understand that your current achievements are based on those responsible choices.

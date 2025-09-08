@@ -1,0 +1,2 @@
+In the present, The Sun indicates that you’re in a period of openness and success. Situations become clear, doubts dissolve, and relationships grow stronger thanks to transparency and mutual trust.  
+This card invites you to celebrate life, enjoy the results achieved, and share your joy with others. The Sun’s light illuminates your choices, making it possible to face every situation with optimism. It’s also a call to gratitude: acknowledging what you’ve accomplished strengthens your life force and opens you to new opportunities.

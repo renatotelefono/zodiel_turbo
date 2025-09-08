@@ -1,0 +1,2 @@
+In the present, The Magician reversed signals confusion, deception, or dispersion of energy. You may feel unable to concentrate your forces, or you may be surrounded by people not acting transparently. It is time to pause, analyze situations with clarity, and avoid hasty decisions.  
+This card also suggests reflecting on possible manipulative behaviors, conscious or unconscious, that could divert you from your true goal. Only by regaining clarity and discipline will it be possible to transform chaos into new opportunities.

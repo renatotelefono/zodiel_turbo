@@ -1,0 +1,2 @@
+If The Sun reversed appears in the past position, it recalls moments when your happiness was hindered by fears, delays, or a sense of insecurity. You may remember periods when you didn’t know how to fully appreciate what you had, letting worries overshadow your serenity.  
+Recognized, this past becomes an important lesson: the Sun’s light is always available, but it takes awareness and openness to live it fully.

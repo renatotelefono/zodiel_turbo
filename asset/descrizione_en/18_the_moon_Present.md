@@ -1,0 +1,2 @@
+In the present, The Moon suggests you may be in a phase of uncertainty or doubt. Some information may be incomplete, and there is a risk of being misled by fears, illusions, or external influences.  
+This card advises prudence: before acting, observe situations carefully and listen to your intuition. It also invites you to explore the world of dreams, emotions, and creativity, because from there precious insights can illuminate your path.

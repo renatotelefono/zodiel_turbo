@@ -1,0 +1,2 @@
+If Strength reversed appears in the past position, it recalls periods of emotional instability or lack of self-confidence. You may remember times when emotions took over, leading to impulsive reactions or rash choices.  
+This experience, if recognized, becomes a valuable lesson: learning from moments of weakness helps develop resilience and emotional awareness to better face present and future challenges.

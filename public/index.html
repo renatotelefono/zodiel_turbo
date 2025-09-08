@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tarocchi — Lettura 3 carte</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <header class="topbar">
+        <h1 id="title">Tarocchi</h1>
+        <div class="actions">
+          <button id="resetBtn" class="btn" disabled>Reset</button>
+          <button id="interpretBtn" class="btn primary" disabled>Interpretazione</button>
+          <button id="pdfBtn" class="btn" disabled>Genera PDF</button>
+        </div>
+      </header>
+
+      <section id="langGate" class="gate">
+        <div class="gate-card">
+          <h2>Scegli la lingua</h2>
+          <div class="gate-actions">
+            <button id="itBtn" class="btn big">Italiano 🇮🇹</button>
+            <button id="enBtn" class="btn big">English 🇬🇧</button>
+          </div>
+          <p class="hint">La scelta della lingua imposta nomi slot, descrizioni e audio.</p>
+        </div>
+      </section>
+
+      <main class="layout">
+        <section class="slots">
+          <div class="slot">
+            <h3 id="slot0label">Passato</h3>
+            <div class="slot-card" id="slot0"></div>
+          </div>
+          <div class="slot">
+            <h3 id="slot1label">Presente</h3>
+            <div class="slot-card" id="slot1"></div>
+          </div>
+          <div class="slot">
+            <h3 id="slot2label">Futuro</h3>
+            <div class="slot-card" id="slot2"></div>
+          </div>
+        </section>
+
+        <section class="board">
+          <div id="grid" class="grid"></div>
+        </section>
+
+        <section class="reading">
+          <h2 id="readingTitle">Interpretazione</h2>
+          <div id="readingOutput" class="reading-output"></div>
+        </section>
+      </main>
+    </div>
+
+    <audio id="player" preload="auto"></audio>
+    <script src="./app.js"></script>
+  </body>
+</html>

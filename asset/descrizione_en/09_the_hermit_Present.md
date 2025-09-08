@@ -1,0 +1,2 @@
+In the present, The Hermit suggests slowing down and looking within to find the answers you seek. It is a card that invites prudence, silent observation, and reflection before making important decisions.  
+It may indicate a period when you feel the need to detach from external influences, meditate, or deepen your spiritual research. The Hermit reminds you that true knowledge is built over time and calm, and the best choices arise from connecting with your inner wisdom.

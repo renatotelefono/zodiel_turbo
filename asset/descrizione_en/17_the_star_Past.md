@@ -1,0 +1,2 @@
+When The Star appears in the past position, it recalls times when you found hope and serenity after challenges. You may remember periods when your inner guidance led you toward healing and awareness.  
+This past represents the basis of your current strength: having overcome difficulties taught you to believe in yourself and to recognize light even in darkness. Acknowledging that journey strengthens your confidence in the present.

@@ -1,0 +1,2 @@
+In the present, The Sun reversed indicates that you may be close to success or a happy phase, but something is slowing its arrival or reducing its intensity. Perhaps you’re doubting yourself or allowing external influences to overshadow your enthusiasm.  
+This card invites you to cultivate trust, gratitude, and optimism. Even if the light isn’t yet at full strength, the Sun is still there: finding joy in small things and recognizing the progress you’ve made can rekindle your vital energy.

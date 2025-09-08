@@ -1,0 +1,2 @@
+In the present, The World indicates you are in a phase of harmony and fulfillment. You may be close to a major result or ready to receive recognition for your efforts. It’s time to celebrate what you’ve built and acknowledge the path you’ve taken to get here.  
+This card also suggests opening to the outer world: travel, meaningful encounters, or the feeling of being in tune with life itself. Your personal growth allows you to feel whole and to connect with what surrounds you in an authentic and conscious way.

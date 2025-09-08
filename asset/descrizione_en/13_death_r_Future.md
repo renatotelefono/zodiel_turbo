@@ -1,0 +1,2 @@
+When reversed Death appears in the future position, it warns that changes will come anyway, but they may be more difficult if resisted. Delaying transformation can cause frustration and prolong stagnant situations.  
+The advice of the card is to prepare for release and to embrace the end of cycles with awareness. Only then will it be possible to transform resistance into growth and open to a new, more authentic and free phase of life.

@@ -1,0 +1,2 @@
+When The Hierophant appears in the past position, it recalls times when your growth was influenced by teachings you received or by adherence to principles and traditions. You may remember a season of study, a period of spiritual guidance, or a time when you found support through an authoritative figure or a reference community.  
+This past suggests that the foundations of your current wisdom rest on the experiences and values you assimilated then. Recognizing that period helps you understand the importance of what you learned and how it has shaped your present choices.

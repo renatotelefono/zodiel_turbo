@@ -1,0 +1,2 @@
+When The Wheel of Fortune reversed appears in the future position, it warns that changes may arrive late or bring unexpected challenges if you resist the natural flow of events.  
+The advice of the card is to develop flexibility and prepare to face the unexpected without fear. Embracing change and learning from difficulties will allow you to transform a complex period into an opportunity for growth and inner renewal.

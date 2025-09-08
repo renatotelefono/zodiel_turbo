@@ -1,0 +1,2 @@
+In the present, The World reversed indicates a sense of frustration or stagnation. You may feel you’ve worked hard without seeing the full result, or that you’re in a transitional phase lacking clarity.  
+This card invites you to take stock: what internal or external obstacles are keeping you from completing the cycle? At times they’re unconscious fears; at others, unresolved external influences. Only by addressing these knots will it be possible to open up to a new phase of fulfillment.

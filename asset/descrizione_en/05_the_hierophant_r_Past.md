@@ -1,0 +1,2 @@
+If The Hierophant reversed appears in the past position, it recalls times when you felt trapped in rules or external expectations. You may have experienced oppressive authority or adhered to beliefs that didn’t truly represent you.  
+While it points to a period of limitation, this card also marks a turning point: what you lived through allowed you to recognize the need to find your own personal truth. The past thus becomes a valuable lesson in spiritual emancipation and discernment.

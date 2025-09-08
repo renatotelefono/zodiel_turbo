@@ -1,0 +1,2 @@
+In the present, The Chariot reversed indicates that you may feel stuck or unable to maintain control over a complex situation. Perhaps you are facing internal or external conflicts that prevent you from moving forward decisively.  
+This card invites you to pause, analyze your goals, and regain the focus needed to overcome obstacles. Only by restoring balance and determination will it be possible to transform this difficult phase into an opportunity for growth.

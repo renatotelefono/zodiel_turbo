@@ -1,0 +1,2 @@
+In the present, Death indicates that you are ready to close a chapter of your life and open another. You may be facing inevitable changes that require you to release what no longer serves you.  
+This card encourages you to embrace transformation with trust, remembering that every ending brings a new beginning. Even if the transition seems difficult, the liberation that follows opens the door to a more authentic life, full of possibilities.

@@ -1,0 +1,2 @@
+When The Star appears in the future position, it foretells healing, serenity, and successes that arise from inner harmony. The future promises inspiration, clarity, and positive opportunities, especially if faced with trust and openness.  
+This card suggests that your path will be illuminated by hope and awareness, inviting you to believe in your ability to overcome any obstacle and create a life aligned with your most authentic values.

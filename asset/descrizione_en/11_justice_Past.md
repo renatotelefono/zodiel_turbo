@@ -1,0 +1,2 @@
+When Justice appears in the past position, it recalls moments when you had to face important decisions or situations where your actions had significant consequences. You may remember a period when mental clarity and respect for rules were fundamental to overcoming challenges or resolving conflicts.  
+This past reminds you that honesty and responsibility built the foundations of your current life. Recognizing the value of those experiences strengthens your ability to face present choices with clarity.

@@ -1,0 +1,2 @@
+When reversed Moon appears in the future position, it indicates that a period of confusion or illusions is destined to clear up. However, the path to full awareness may require courage and a sincere confrontation with your fears and inner shadows.  
+The advice of the card is to use this phase as an opportunity for growth: facing hidden truths will bring liberation, inner strength, and a more authentic vision of the world and yourself.

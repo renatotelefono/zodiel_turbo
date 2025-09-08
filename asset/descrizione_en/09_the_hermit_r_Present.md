@@ -1,0 +1,2 @@
+In the present, The Hermit reversed signals that you may feel lost, disconnected from others, or unable to find clarity. Perhaps you are avoiding listening to your inner voice, or conversely, you have closed yourself too much in your own world, losing contact with reality.  
+This card invites you to seek balance between introspection and interaction with the world: gradually opening up to others and accepting help can bring light back to your path, transforming sterile solitude into constructive reflection.

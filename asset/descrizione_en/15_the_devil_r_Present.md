@@ -1,0 +1,2 @@
+In the present, The Devil reversed indicates a period of liberation and inner growth. You may be in the process of breaking emotional, material, or behavioral chains that limited you.  
+This card encourages you to continue on this path, reminding you that every step toward freedom requires courage and honesty with yourself. The transformation underway will allow you to regain energy and authenticity.

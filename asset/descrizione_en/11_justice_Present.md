@@ -1,0 +1,2 @@
+In the present, Justice indicates the need to act with balance and transparency. You may face crucial decisions requiring objective and impartial evaluations.  
+This card invites you to reflect before acting, to consider the consequences of every choice, and not to be influenced by emotions or external pressures. Justice reminds you that inner truth and moral integrity are your strongest allies, guiding you toward solutions that bring harmony and stability.

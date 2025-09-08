@@ -1,0 +1,2 @@
+When The Emperor appears in the future position, it foreshadows the arrival of a phase of security and consolidation. Your present actions, if guided by responsibility and consistency, will lead to lasting and solid results.  
+This card indicates that future success will be founded on commitment, planning, and the ability to take responsibility. The message of The Emperor is clear: build now the solid foundations of your life, because the stability and strength you create today will become the basis of tomorrow’s achievements.

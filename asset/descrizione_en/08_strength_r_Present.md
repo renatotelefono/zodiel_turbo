@@ -1,0 +1,2 @@
+In the present, Strength reversed signals difficulty maintaining self-control or inner security. You may feel overwhelmed by strong emotions, doubts, or fears that undermine your ability to act with clarity.  
+This card invites you to slow down, recognize your limits, and seek support if necessary. Cultivating patience, kindness toward yourself, and emotional awareness is fundamental to transforming momentary fragility into authentic strength.

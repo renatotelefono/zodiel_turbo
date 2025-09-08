@@ -1,0 +1,2 @@
+When The World appears in the future position, it heralds the arrival of a phase of success and fulfillment. It’s a sign that what you’re working on will come to completion and lead you to a new inner balance. The future brings opportunities for recognition, gratitude, and the harmonious closure of life cycles.  
+This card encourages you to enjoy the fruits of your commitment and to prepare for a new beginning, because every completion opens the way to further opportunities for growth. The World promises serenity, awareness, and a deep connection with the flow of life.

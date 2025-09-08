@@ -1,0 +1,2 @@
+Se La Ruota della Fortuna rovesciata appare nella posizione del passato, richiama momenti in cui ti sei sentito bloccato o travolto da circostanze sfavorevoli. Potresti ricordare periodi in cui eventi esterni sembravano ostacolare ogni progresso, generando frustrazione o senso di impotenza.  
+Questa esperienza insegna che anche i momenti di stallo fanno parte del ciclo della vita e che accettare i ritmi naturali permette di superare le difficoltà con maggiore serenità.

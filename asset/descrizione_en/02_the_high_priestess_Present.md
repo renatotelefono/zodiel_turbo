@@ -1,0 +1,2 @@
+In the present, The High Priestess indicates that it is time to observe carefully and trust your intuition. You may face unclear situations where impulsive action is not the solution.  
+This card invites patience, deeper research, and listening to your inner voice. The High Priestess reminds you that authentic knowledge arises from balance between observation, intuition, and silent wisdom. It is also a sign that secrets or hidden truths may be revealed at the right time.

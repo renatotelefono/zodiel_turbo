@@ -1,0 +1,2 @@
+When Death appears in the past position, it recalls periods of major change or significant losses that marked a turning point in your life. You may remember times of closure, separations, or deep transformations that, even if painful, opened the way to new opportunities.  
+This past represents a lesson of courage and resilience: accepting the end of a cycle was the first step toward rebirth and inner growth.

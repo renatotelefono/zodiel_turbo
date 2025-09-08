@@ -1,0 +1,2 @@
+When The Chariot reversed appears in the future position, it warns that you may encounter challenges related to loss of direction or unforeseen obstacles. Delays and detours are possible but not definitive.  
+The advice of the card is to prepare to regain control and not to be discouraged by difficulties. The ability to redirect your energies will be the key to overcoming obstacles and resuming your journey toward victory.

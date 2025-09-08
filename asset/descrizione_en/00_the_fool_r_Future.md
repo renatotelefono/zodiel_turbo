@@ -1,0 +1,3 @@
+When the Fool reversed shows up in the future position, it serves as a warning: the path ahead may be marked by setbacks caused by carelessness or poor planning. New opportunities will arrive, but if you face them without awareness they could turn into obstacles.  
+This card invites you to prepare, to embrace change without losing yourself in chaos. Recognizing limits and moving prudently will help you turn risks into opportunities for growth.  
+The future of the Fool reversed teaches that even the freest energy needs at least some direction: finding that balance will be the key to avoiding missteps and building a safer path.

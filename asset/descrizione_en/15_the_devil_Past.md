@@ -1,0 +1,2 @@
+When The Devil appears in the past position, it recalls moments when you were influenced by passions, temptations, or external conditioning. You may remember periods of emotional, material, or behavioral dependency that limited your freedom of choice.  
+This past represents an important lesson: having experienced restrictions and limitations taught you to recognize what imprisons you and to find the strength to free yourself from toxic bonds or deceptive situations.

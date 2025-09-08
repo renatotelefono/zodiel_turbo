@@ -1,0 +1,2 @@
+In the present, The Devil indicates that you may feel trapped in a situation that limits your freedom, or that you are tempted by choices that offer immediate gratification but bring negative consequences.  
+This card invites you to honestly examine your bonds, desires, and habits, distinguishing between what truly nourishes your life and what impoverishes it. Awareness of these dynamics is the first step toward liberation.

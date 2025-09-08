@@ -1,0 +1,2 @@
+In the present, The Tower reversed indicates that you may be experiencing an inner crisis or a latent phase of instability. Perhaps you are holding back emotions or situations that will eventually need to be faced.  
+This card invites you to act with courage and let go of what is no longer stable or authentic. Facing change voluntarily can reduce the impact of future events and turn crisis into an opportunity for growth.

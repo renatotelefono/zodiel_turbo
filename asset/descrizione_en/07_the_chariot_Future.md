@@ -1,0 +1,2 @@
+When The Chariot appears in the future position, it foreshadows progress, triumph, and the possibility of reaching important goals. Your efforts will bring concrete results, and your determination will be rewarded.  
+The Chariot’s future invites you to continue cultivating courage, discipline, and concentration. Only by maintaining balance and control will you be able to make the most of the opportunities ahead and transform them into lasting achievements.

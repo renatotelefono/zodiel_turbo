@@ -1,0 +1,2 @@
+Nel presente, La Stella rovesciata indica un momento di dubbio o di perdita di fiducia. Potresti sentirti emotivamente fragile, demotivato o distante dalla tua autentica fonte di ispirazione.  
+Questa carta ti invita a riconnetterti con ciò che ti dà forza, sia attraverso la meditazione, la creatività o il sostegno di persone fidate. Recuperare fiducia e speranza è fondamentale per superare questa fase e ritrovare serenità.

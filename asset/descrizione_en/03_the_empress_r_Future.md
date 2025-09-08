@@ -1,0 +1,2 @@
+When The Empress reversed appears in the future position, it signals delays or difficulties in the growth of projects, relationships, or personal paths. There may be emotional or practical obstacles to overcome before seeing the fruits of your commitment.  
+The advice of the card is to work on self-care and the balance between giving and receiving. By regaining inner harmony, you will be able to transform blocks and delays into new opportunities for growth and fulfillment.

@@ -1,0 +1,2 @@
+In the present, The Tower indicates that you are going through or about to face a moment of radical transformation. It may be a sudden change, a truth that emerges, or a necessary rupture to move forward.  
+This card invites you to embrace change as an opportunity for liberation, even if it initially feels destabilizing. Accepting what falls allows you to create space for new, stronger, and more authentic foundations.

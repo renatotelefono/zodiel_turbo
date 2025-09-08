@@ -1,0 +1,2 @@
+When The Hanged Man appears in the past position, it recalls times when you were forced to stop or rethink your approach to life. You may remember periods of suspension, forced waiting, or sacrifices that led to new awareness.  
+This past indicates that your inner strength and your ability to adapt to difficult circumstances allowed you to grow and develop a new vision of the world and of yourself.

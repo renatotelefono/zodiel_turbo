@@ -1,0 +1,2 @@
+In the present, The Wheel of Fortune reversed signals resistance to change or difficulty adapting to unexpected situations. You may feel stuck in old patterns or fear losing control when facing unforeseen events.  
+This card invites you to let go of the need to control everything and trust the flow of life. Accepting that cycles of highs and lows are inevitable is the first step to overcoming difficulties and opening up to new possibilities.

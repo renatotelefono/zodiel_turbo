@@ -1,0 +1,2 @@
+When The Lovers appear in the future position, they foreshadow a period of union, harmony, and conscious choices. A meaningful new relationship may arrive, or a heartfelt decision that marks a turning point in your life.  
+The future under the sign of the Lovers invites you to follow your inner voice and cultivate sincere relationships. Happiness will be born from the alignment between what you feel and what you choose to do, creating deep and authentic connections.

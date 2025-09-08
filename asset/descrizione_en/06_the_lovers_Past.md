@@ -1,0 +1,2 @@
+When The Lovers appear in the past position, they recall moments when emotional or relational choices played a decisive role in your life. You may remember important relationships, heartfelt decisions, or situations where you followed instinct rather than logic.  
+This past taught you the value of authentic connections and the responsibility that every choice carries. Recognizing these experiences helps you understand how emotional decisions contributed to your personal growth.

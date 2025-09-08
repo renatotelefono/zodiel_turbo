@@ -1,0 +1,2 @@
+When Strength appears in the past position, it recalls a period when you overcame significant difficulties through courage and inner mastery. You may remember emotional, physical, or relational challenges faced with determination, showing great resilience and self-control.  
+This past represents the foundation of your current strength, reminding you that the inner power gained then continues to support you in present and future trials. Recognizing those moments of resilience helps you see how your emotional and spiritual strength has grown through experience.

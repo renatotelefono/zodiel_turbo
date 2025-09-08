@@ -1,0 +1,2 @@
+When Judgment reversed appears in the future position, it warns that delaying decisions or ignoring the need for change may lead to frustration and missed opportunities.  
+The advice of the card is to prepare to free yourself from the past and face inner truths with courage. Overcoming fears and accepting transformation will be the key to opening a new, more authentic and harmonious chapter in your life.

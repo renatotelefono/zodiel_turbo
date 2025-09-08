@@ -1,0 +1,2 @@
+Nel presente, Il Carro suggerisce che sei pronto a muoverti verso i tuoi obiettivi con determinazione e coraggio. È un momento favorevole per agire, avanzare e prendere decisioni decisive.  
+Questa carta indica che la vittoria è possibile, ma richiede disciplina, concentrazione e la capacità di bilanciare le forze opposte dentro di te. Mantenere il controllo e restare focalizzato sarà fondamentale per trasformare questa fase in un successo tangibile.

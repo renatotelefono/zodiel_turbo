@@ -1,0 +1,2 @@
+When The Hermit reversed appears in the future position, it signals possible delays or difficulties in finding inner clarity. The risk is prolonging an unproductive phase of isolation, remaining trapped in uncertainties or fears.  
+The advice of this card is to seek the right balance: allow moments of introspection without losing contact with life and those who can offer support. Overcoming these difficulties, the future will bring wisdom and a new connection with your inner path.

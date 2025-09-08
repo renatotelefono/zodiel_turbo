@@ -1,0 +1,2 @@
+When The Hermit appears in the past position, it recalls moments when you withdrew from the world or chose solitude to better understand yourself or the situations around you. You may remember periods of study, deep reflection, or detachment from distractions to regain clarity.  
+This past indicates that those experiences of introspection strengthened your wisdom and discernment. Recognizing the value of those moments helps you understand how silence and patience have been fundamental tools in your personal growth.

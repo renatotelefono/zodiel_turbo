@@ -1,0 +1,2 @@
+When Justice appears in the future position, it foreshadows a period of clarity and accountability. Upcoming events will bring balance and truth, highlighting the results of your past actions.  
+This card suggests that transparency and fairness will be rewarded, while injustices or wrongdoings will come to light. The future of Justice invites you to continue following the path of integrity, because only those who act in harmony with their values find lasting peace and stability.

@@ -1,0 +1,2 @@
+When The Devil reversed appears in the future position, it foreshadows a process of complete liberation from limiting patterns and conditioning. The future will bring clarity and new opportunities born from the courage to face your inner shadows.  
+The advice of the card is to persevere in the journey of emancipation and not fear letting go of what no longer serves you. The freedom gained will be the foundation of a new phase of life that is more authentic and aware.

@@ -1,0 +1,2 @@
+In the present, The Lovers indicate that you are facing a significant choice, often linked to relationships or your emotional life. It is time to listen to your heart, while also maintaining balance and awareness.  
+This card invites you to reflect on the values guiding your decisions and to choose the path that brings you harmony and authenticity. It also indicates a favorable period to strengthen bonds of affection, based on trust, sincerity, and mutual respect.

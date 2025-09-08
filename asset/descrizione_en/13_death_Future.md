@@ -1,0 +1,2 @@
+When Death appears in the future position, it foretells the arrival of profound transformations and necessary conclusions. Some situations will reach their natural closure, allowing space for new experiences and opportunities.  
+The future of this card invites you to face change with courage, without resistance: only by accepting the end of what is outdated can you fully welcome rebirth and inner growth.

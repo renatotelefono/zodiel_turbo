@@ -1,0 +1,2 @@
+When The High Priestess appears in the future position, it foretells a period of introspection, inner revelations, and deeper understanding of yourself and the situations around you.  
+The future under the sign of the High Priestess indicates that wisdom and clarity will come through silence and patience rather than immediate action. This card encourages you to welcome knowledge as an inner process, leading to more conscious choices and a clearer vision of the world.

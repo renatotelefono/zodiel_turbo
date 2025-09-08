@@ -1,0 +1,2 @@
+When The Moon appears in the future position, it foretells a period in which emotions, intuition, and sensitivity will play a key role. There may be unclear situations or delays due to the need for greater understanding of reality.  
+This card encourages you to trust your instinct and move cautiously, without being guided only by appearances. The future of the Moon brings inner growth and greater awareness, provided you face your fears and distinguish between what is real and what is illusion.

@@ -1,0 +1,2 @@
+In the present, Justice reversed indicates that you may feel confused, deceived, or trapped in situations where the truth is unclear. Perhaps you are experiencing conflicts caused by lies, omissions, or a distorted view of reality.  
+This card invites you to look within and take responsibility, avoiding blaming external factors. Only by regaining clarity and honesty will it be possible to restore balance and make the right decisions.

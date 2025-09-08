@@ -1,0 +1,2 @@
+When The Empress appears in the future position, it foreshadows a phase of growth, prosperity, and fulfillment. Your efforts of care and creativity will bear fruit, bringing satisfaction and harmony to your relationships and projects.  
+The future under The Empress promises positive results, born of dedication and patience. This card encourages you to continue cultivating what you love, because your perseverance will bring abundance and personal fulfillment.

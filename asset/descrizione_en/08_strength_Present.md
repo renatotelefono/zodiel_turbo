@@ -1,0 +1,2 @@
+In the present, Strength suggests that you possess the resources needed to face current challenges. It is a card that invites you to remain calm, not be overwhelmed by intense emotions, and move forward with confidence.  
+This energy encourages you to use kindness and patience as tools for success, reminding you that true victory comes from self-mastery. It is also a reminder to recognize your ability to positively influence others through your serenity and moral strength.

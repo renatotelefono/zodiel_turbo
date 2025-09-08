@@ -1,0 +1,2 @@
+When The Tower appears in the past position, it recalls times when your life was shaken by sudden and destabilizing events. You may remember the end of a relationship, a radical change, or a situation where well-established certainties collapsed.  
+This past has taught you the importance of rebuilding on solid and authentic foundations, reminding you that even the most painful crises can lead to rebirth and new awareness.

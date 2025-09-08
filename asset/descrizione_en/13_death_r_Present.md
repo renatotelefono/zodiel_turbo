@@ -1,0 +1,2 @@
+In the present, reversed Death signals a phase of blockage or inner resistance. You may feel the need for change but fear the consequences of transformation.  
+This card invites you to reflect on what you are holding onto and on the emotional cost of remaining in situations that have already ended. Accepting the end of what is no longer useful is the key step to freeing yourself from burdens and opening to rebirth.

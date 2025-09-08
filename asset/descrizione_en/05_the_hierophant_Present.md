@@ -1,0 +1,2 @@
+In the present, The Hierophant indicates that it’s time to seek clarity through reflection and inner listening. You may need guidance, advice, or a strengthening of your ethical principles to face a complex situation.  
+The card suggests not acting impulsively, but drawing on the knowledge and experience already available—both within you and around you. It’s an invitation to honor your values and find stability through deep understanding, avoiding shortcuts or superficial compromises.

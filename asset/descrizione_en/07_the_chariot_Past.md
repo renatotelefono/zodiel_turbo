@@ -1,0 +1,2 @@
+When The Chariot appears in the past position, it recalls moments when determination and willpower enabled you to overcome major challenges. You may remember successes achieved thanks to discipline, focus, and the ability to stay in control in difficult situations.  
+This past represents a foundation of inner security: knowing you have overcome demanding challenges strengthens confidence in your abilities and helps you proceed with determination in the present.

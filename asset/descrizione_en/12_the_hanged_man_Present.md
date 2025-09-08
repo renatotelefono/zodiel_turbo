@@ -1,0 +1,2 @@
+In the present, The Hanged Man suggests that you’re in a phase of standstill or deep reflection. You might sense slowdowns or external obstacles, but the card invites you to see this moment as an opportunity for inner growth.  
+It’s time to view the situation from another angle and to let go of expectations or old patterns. The Hanged Man teaches that transformation is born from the ability to accept and understand before taking action.

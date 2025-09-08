@@ -1,0 +1,2 @@
+When The Tower appears in the future position, it foretells events that will bring drastic change or the revelation of hidden truths. Although the process may be turbulent, the collapse of old structures will open the way to new possibilities.  
+The Tower’s future suggests preparing for transformation with courage, remembering that only by letting go of what is no longer needed can you build a more stable and authentic life.
