@@ -35,16 +35,22 @@
     resetBtn: document.getElementById('resetBtn'),
     readingTitle: document.getElementById('readingTitle'),
     readingOutput: document.getElementById('readingOutput'),
-    player: document.getElementById('player')
+    player: document.getElementById('player'),
+    shuffleBtn: document.getElementById('shuffleBtn')
   };
 
   let lang = null; // 'it' | 'en'
   let deck = [];   // { base, reversed, picked }
   let picks = [];  // { base, reversed, slotIndex }
   let lockBoard = false;
+  let animating = false; // evita interazioni durante la mescolata
 
  function initLang(selected) {
   lang = selected;
+  DOM.shuffleBtn.textContent = (lang === 'it') ? 'Mescola carte' : 'Shuffle deck';
+  DOM.shuffleBtn.setAttribute('aria-label', DOM.shuffleBtn.textContent);
+
+  
   DOM.langGate.style.display = 'none';
   DOM.title.textContent = (lang === 'it') ? 'Tarocchi' : 'Tarot';
   const labels = SLOT_LABELS[lang];
@@ -59,7 +65,7 @@
   // opzionale accessibilità:
   DOM.interpretBtn.setAttribute('aria-label', DOM.interpretBtn.textContent);
   DOM.pdfBtn.setAttribute('aria-label', DOM.pdfBtn.textContent);
-
+  DOM.shuffleBtn.addEventListener('click', onShuffle);
   DOM.resetBtn.disabled = false;
   resetAll();
 }
@@ -71,6 +77,8 @@
     DOM.readingOutput.innerHTML = '';
     DOM.pdfBtn.disabled = true;
     DOM.interpretBtn.disabled = true;
+    DOM.shuffleBtn.disabled = false;
+
     picks = [];
     lockBoard = false;
     // Make deck with random reversed
@@ -87,6 +95,7 @@
       const cardEl = document.createElement('div');
       cardEl.className = 'card';
       cardEl.dataset.index = String(i);
+      cardEl.dataset.base = c.base; // ⬅️ servirà per il riordino animato
 
       const img = document.createElement('img');
       img.alt = 'back';
@@ -113,6 +122,8 @@
     const c = deck[idx];
     if (!c || c.picked) return;
     if (picks.length >= 3) return;
+    DOM.shuffleBtn.disabled = true;
+    if (lockBoard || animating) return;
 
     // push to first empty slot
     const slotIndex = picks.length;
@@ -282,6 +293,108 @@ function onTogglePause() {
       alert((lang === 'it') ? 'Errore nella generazione del PDF' : 'Error generating PDF');
     }
   }
+function fisherYatesShuffle(arr) {
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+}
+
+function nextFrame() {
+  return new Promise(r => requestAnimationFrame(() => requestAnimationFrame(r)));
+}
+
+async function onShuffle() {
+  if (animating) return;
+  if (!deck || deck.length <= 1) return;
+  if (picks.length > 0) return; // mescola solo prima di iniziare a pescare
+
+  animating = true;
+  DOM.shuffleBtn.disabled = true;
+
+  const cards = Array.from(DOM.grid.querySelectorAll('.card'));
+  if (cards.length <= 1) {
+    animating = false;
+    DOM.shuffleBtn.disabled = false;
+    return;
+  }
+
+  // 1) Animazione: tutte le carte si impilano sulla PRIMA carta
+  const gridRect = DOM.grid.getBoundingClientRect();
+  const firstRect = cards[0].getBoundingClientRect();
+
+  // fai scivolare ogni carta verso la prima
+  cards.forEach((el, i) => {
+    const r = el.getBoundingClientRect();
+    const dx = firstRect.left - r.left;
+    const dy = firstRect.top  - r.top;
+    el.style.willChange = 'transform';
+    el.style.transition = 'transform 400ms ease';
+    el.style.transform = `translate(${dx}px, ${dy}px)`;
+    el.style.zIndex = String(100 + i);
+  });
+
+  // aspetta la fine della transizione
+  await new Promise(res => setTimeout(res, 450));
+
+  // 2) Rimescola il deck (dati) mantenendo picked=false
+  fisherYatesShuffle(deck);
+
+  // 3) Riordina gli elementi DOM per seguire il nuovo ordine del deck
+  const byBase = new Map(cards.map(el => [el.dataset.base, el]));
+  DOM.grid.innerHTML = '';
+
+  deck.forEach((c, i) => {
+    const el = byBase.get(c.base);
+    if (!el) return;
+    // aggiorna etichetta e indice
+    el.dataset.index = String(i);
+    const tag = el.querySelector('.tag');
+    if (tag) tag.textContent = `#${String(i + 1).padStart(2, '0')}`;
+    // rimuovi transition per impostare correttamente il FLIP successivo
+    el.style.transition = 'none';
+    DOM.grid.appendChild(el);
+  });
+
+  // 4) Effetto “ridisponi”: parti impilato sulla nuova prima carta, poi espandi
+  const newFirst = DOM.grid.querySelector('.card');
+  const pileRect = newFirst.getBoundingClientRect();
+
+  DOM.grid.querySelectorAll('.card').forEach((el) => {
+    const r = el.getBoundingClientRect();
+    const dx = pileRect.left - r.left;
+    const dy = pileRect.top  - r.top;
+    // parti già "impilato" (senza transizione)…
+    el.style.transform  = `translate(${dx}px, ${dy}px)`;
+    el.style.zIndex = '0';
+  });
+
+  // forza un doppio frame per far “prendere” il nuovo transform senza transizione
+  await nextFrame();
+
+  // …poi anima verso la posizione naturale (transform: none)
+  DOM.grid.querySelectorAll('.card').forEach((el) => {
+    el.style.transition = 'transform 400ms ease';
+    el.style.transform  = 'translate(0, 0)';
+  });
+
+  // attendi l’espansione
+  await new Promise(res => setTimeout(res, 450));
+
+  // pulizia
+  DOM.grid.querySelectorAll('.card').forEach((el) => {
+    el.style.transition = '';
+    el.style.transform  = '';
+    el.style.willChange = '';
+    el.style.zIndex = '';
+  });
+
+  animating = false;
+  DOM.shuffleBtn.disabled = false;
+}
+
+
+
 function onReset() {
   stopAudio();   // ⬅️ interrompe eventuale riproduzione
   resetAll();
