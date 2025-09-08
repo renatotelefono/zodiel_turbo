@@ -42,17 +42,26 @@
   let picks = [];  // { base, reversed, slotIndex }
   let lockBoard = false;
 
-  function initLang(selected) {
-    lang = selected;
-    DOM.langGate.style.display = 'none';
-    DOM.title.textContent = (lang === 'it') ? 'Tarocchi' : 'Tarot';
-    const labels = SLOT_LABELS[lang];
-    labels.forEach((lab, i) => DOM.slotLabels[i].textContent = lab);
-    DOM.readingTitle.textContent = (lang === 'it') ? 'Interpretazione' : 'Reading';
-    DOM.resetBtn.disabled = false;
+ function initLang(selected) {
+  lang = selected;
+  DOM.langGate.style.display = 'none';
+  DOM.title.textContent = (lang === 'it') ? 'Tarocchi' : 'Tarot';
+  const labels = SLOT_LABELS[lang];
+  labels.forEach((lab, i) => DOM.slotLabels[i].textContent = lab);
+  DOM.readingTitle.textContent = (lang === 'it') ? 'Interpretazione' : 'Reading';
 
-    resetAll();
-  }
+  // ⬇️ aggiungi queste due righe
+  DOM.interpretBtn.textContent = (lang === 'it') ? 'Interpretazione' : 'interpretation';
+  DOM.pdfBtn.textContent       = (lang === 'it') ? 'Genera PDF'     : 'Generate PDF';
+
+  // opzionale accessibilità:
+  DOM.interpretBtn.setAttribute('aria-label', DOM.interpretBtn.textContent);
+  DOM.pdfBtn.setAttribute('aria-label', DOM.pdfBtn.textContent);
+
+  DOM.resetBtn.disabled = false;
+  resetAll();
+}
+
 
   function resetAll() {
     // Clear UI

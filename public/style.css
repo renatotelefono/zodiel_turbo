@@ -52,7 +52,7 @@ body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubunt
   padding: 0;
   width: fit-content;
 }
-.slot h3 { margin: 0; font-weight:600; font-size: 16px; text-align:center; }
+.slot h3 { margin: 0; font-weight:600; font-size: 26px; text-align:center; }
 .slot-card {
   width:  calc(var(--card-w) + (var(--slot-pad) * 2));
   height: calc(var(--card-h) + (var(--slot-pad) * 2));
@@ -107,7 +107,7 @@ img.reversed { transform: rotate(180deg); }
 .reading-output { display:grid; gap:12px; }
 .reading-output .block { background:#0b1220; border:1px solid #334155; border-radius:10px; padding:10px; }
 .reading-output .block h4 { margin:0 0 6px 0; }
-.reading-output pre { white-space: pre-wrap; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono'; font-size: 13px; color:#e2e8f0; }
+.reading-output pre { white-space: pre-wrap; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono'; font-size: 20px; color:#e2e8f0; }
 
 .gate { position:fixed; inset:0; background:rgba(0,0,0,.8); display:flex; align-items:center; justify-content:center; z-index:10; }
 .gate-card { background:#0f172a; border:1px solid #1f2937; border-radius:12px; padding:20px; width: 520px; max-width: calc(100vw - 24px); text-align:center; }
