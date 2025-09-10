@@ -4,7 +4,36 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Tarocchi — Lettura 3 carte</title>
+
+    <!-- Stili dell’app -->
     <link rel="stylesheet" href="./style.css" />
+    <!-- Rotazione corona come nell’esempio index2 -->
+    <link rel="stylesheet" href="./ruota.css" />
+
+    <style>
+      /* Layout per il gate lingua: bottoni ai lati, ruota al centro */
+      .lang-row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 24px;
+        flex-wrap: wrap;
+      }
+      /* Ridimensiono la ruota dentro il gate */
+      .lang-row .anello {
+        width: min(92vw, 720px);
+      }
+      /* Ri-uso le classi dei bottoni originali e mantengo gli stessi id */
+      .btn.big { white-space: nowrap; }
+      /* Su mobile i bottoni finiscono sopra/sotto la ruota */
+      @media (max-width: 800px){
+        .lang-row { flex-direction: column; gap: 12px; }
+      }
+
+      /* Il body in ruota.css è centrato: nel gate vogliamo rispettare il layout dell’app */
+      /* La regola seguente neutralizza l'effetto "place-items:center" SOLO dentro il gate */
+      .gate { display: flex; align-items: center; justify-content: center; }
+    </style>
   </head>
   <body>
     <div id="app">
@@ -14,22 +43,37 @@
           <button id="resetBtn" class="btn" disabled>Reset</button>
           <button id="shuffleBtn" class="btn" disabled>Mescola</button>
           <button id="interpretBtn" class="btn primary" disabled>Interpretazione</button>
-          <button id="pauseBtn" class="btn" disabled>Pausa</button> <!-- nuovo -->
+          <button id="pauseBtn" class="btn" disabled>Pausa</button>
           <button id="pdfBtn" class="btn" disabled>Genera PDF</button>
         </div>
       </header>
 
+      <!-- GATE LINGUA: ruota al centro, bottoni ai lati (stessi id di prima) -->
       <section id="langGate" class="gate">
         <div class="gate-card">
           <h2>Scegli la lingua</h2>
-          <div class="gate-actions">
+
+          <div class="lang-row">
+            <!-- SINISTRA: Italiano -->
             <button id="itBtn" class="btn big">Italiano 🇮🇹</button>
+
+            <!-- CENTRO: Corona che ruota come in index2 (ruota.css) -->
+            <figure class="viewport" aria-label="Corona dei Tarocchi">
+              <div class="anello">
+                <img class="corona" src="../asset/tarot_corona.jpg" alt="Corona dei Tarocchi (22 settori)" />
+                <div class="foro" aria-hidden="true"></div>
+              </div>
+            </figure>
+
+            <!-- DESTRA: English -->
             <button id="enBtn" class="btn big">English 🇬🇧</button>
           </div>
+
           <p class="hint">La scelta della lingua imposta nomi slot, descrizioni e audio.</p>
         </div>
       </section>
 
+      <!-- Resto dell’app (immutato) -->
       <main class="layout">
         <section class="slots">
           <div class="slot">
@@ -57,6 +101,7 @@
       </main>
     </div>
 
+    <!-- IMPORTANTISSIMO: carica lo stesso script dell’app, così i bottoni funzionano come prima -->
     <audio id="player" preload="auto"></audio>
     <script src="./app.js"></script>
   </body>

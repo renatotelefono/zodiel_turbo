@@ -1,0 +1,51 @@
+:root { color-scheme: light dark; --diametro-foro: 58%; } /* regola % per adattare il foro */
+
+body{
+  margin:0; min-height:100vh; display:grid; place-items:center;
+  font-family:system-ui,"Segoe UI",Roboto,sans-serif;
+  background:#111; color:#eee;
+}
+
+.viewport{ margin:0; text-align:center; }
+
+.anello{
+  position: relative;
+  width: min(92vw, 1200px);
+  aspect-ratio: 1 / 1;
+  background:#111;            /* colore di sfondo visibile nel foro */
+  border-radius: 50%;
+  overflow: hidden;            /* nasconde gli angoli dell'immagine */
+  display:grid; place-items:center;
+}
+
+/* ruota in senso antiorario solo l’immagine */
+.corona{
+  position:absolute; inset:0;
+  width:100%; height:100%; object-fit: contain;
+  animation: gira 40s linear infinite;
+  will-change: transform;
+}
+
+/* disco centrale fermo che copre il centro */
+.foro{
+  position: relative;
+  width: var(--diametro-foro);
+  height: var(--diametro-foro);
+  border-radius: 50%;
+  background:#111;            /* stesso colore del body */
+  z-index: 1;                 /* sopra l’immagine che ruota */
+  box-shadow: 0 0 0 1px rgba(255,255,255,.05) inset; /* (opzionale) bordo interno leggero */
+}
+
+figcaption{ margin-top:.75rem; opacity:.8; }
+
+/* Antiorario: 0 -> -360° */
+@keyframes gira{
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(-360deg); }
+}
+
+/* Rispetto per chi preferisce meno animazioni */
+@media (prefers-reduced-motion: reduce){
+  .corona{ animation: none; }
+}
