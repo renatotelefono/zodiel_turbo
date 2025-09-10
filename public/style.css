@@ -143,3 +143,104 @@ img.reversed { transform: rotate(180deg); }
 #readingTitle {
   display: none !important;
 }
+/* ----- TAGLIE (modifica qui le misure) ----- */
+:root{
+  /* carte dentro gli slot (le 3 carte scelte) */
+  --slot-card-w: 280px;   /* 260–340 */
+  --slot-card-h: 440px;   /* 1.57–1.7 volte la larghezza */
+
+  /* carte nel mazzo/griglia di scelta */
+  --grid-card-w: 140px;   /* 120–180 */
+  --grid-card-h: 220px;   /* 1.57–1.7 volte la larghezza */
+
+  /* testo */
+  --slot-label-size: 20px; /* Passato/Presente/Futuro */
+}
+
+/* ----- SLOT (carte scelte) ----- */
+.slots{
+  gap: 24px;                /* più respiro tra gli slot */
+}
+.slot-card{
+  width: var(--slot-card-w);
+  height: var(--slot-card-h);
+}
+.slot-card img, 
+.slot-card canvas, 
+.slot-card .card{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;      /* evita distorsioni */
+  display: block;
+}
+.slot h3{
+  font-size: var(--slot-label-size);
+}
+
+/* ----- MAZZO / GRIGLIA DI SELEZIONE ----- */
+#grid{
+  /* se usi CSS grid, questa riga rende le colonne più larghe */
+  grid-template-columns: repeat(auto-fill, minmax(var(--grid-card-w), 1fr));
+  gap: 14px;
+}
+#grid .card{
+  width: var(--grid-card-w);
+  height: var(--grid-card-h);
+}
+#grid .card img,
+#grid .card canvas{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+/* opzionale: su schermi piccoli riduci un filo */
+@media (max-width: 800px){
+  :root{
+    --slot-card-w: 240px;
+    --slot-card-h: 400px;
+    --grid-card-w: 120px;
+    --grid-card-h: 195px;
+    --slot-label-size: 18px;
+  }
+}
+/* --- 1) TOPBAR SEMPRE CENTRATA --- */
+.topbar{
+  display: flex;           /* assicurati che sia flex */
+  justify-content: center; /* centra tutto orizzontalmente */
+  align-items: center;     /* centra verticalmente */
+}
+.topbar .actions{
+  display: flex;
+  gap: 8px;                /* spazio tra i bottoni */
+  justify-content: center; /* i bottoni restano centrati */
+}
+
+/* --- 2) INTERPRETAZIONE CENTRATA E LARGHEZZA = SLOT --- */
+/* Definisci (o regola) la larghezza delle carte negli slot e il gap tra gli slot */
+:root{
+  --slot-card-w: 280px;    /* cambia se usi carte più grandi/piccole */
+  --slot-gap: 24px;        /* spazio orizzontale tra gli slot */
+}
+
+.reading{
+  display: flex;
+  justify-content: center;   /* centra il blocco interpretazione */
+}
+
+.reading-output{
+  /* max larghezza = 3 carte + 2 gap (tre slot affiancati) */
+  max-width: calc(var(--slot-card-w) * 3 + var(--slot-gap) * 2);
+  margin: 0 auto;
+  text-align: center;        /* centra il testo */
+  /* opzionale: un po' di padding interno per leggibilità */
+  padding-inline: 12px;
+}
+
+/* Su schermi piccoli, lascia respirare */
+@media (max-width: 800px){
+  .reading-output{
+    max-width: 92vw;         /* in verticale gli slot non sono affiancati */
+  }
+}
