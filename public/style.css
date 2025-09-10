@@ -120,3 +120,26 @@ img.reversed { transform: rotate(180deg); }
 
 .gate-actions { margin: 12px 0; display:flex; gap:12px; justify-content:center; }
 .hint { opacity:.8; font-size: 14px; }
+/* Bottoni globali (header + ovunque) */
+.btn{
+  font-size: 18px;          /* prima era più piccola */
+  line-height: 1.1;         /* testo più “pieno” */
+  padding: 10px 16px;       /* un po' più di respiro */
+}
+
+/* Variante grande usata nel gate lingua */
+.btn.big{
+  font-size: 20px;
+  padding: 12px 18px;
+}
+
+/* Solo i bottoni della topbar (Reset, Mescola, ecc.) */
+.topbar .btn{
+  font-size: 18px;          /* aumenta solo quelli in alto */
+  padding: 8px 14px;
+}
+/* Nasconde titolo in alto e intestazione della sezione lettura in ogni lingua */
+#title,
+#readingTitle {
+  display: none !important;
+}
