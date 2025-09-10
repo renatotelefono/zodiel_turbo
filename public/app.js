@@ -122,7 +122,7 @@
     const c = deck[idx];
     if (!c || c.picked) return;
     if (picks.length >= 3) return;
-    DOM.shuffleBtn.disabled = true;
+   
     if (lockBoard || animating) return;
 
     // push to first empty slot
@@ -307,7 +307,7 @@ function nextFrame() {
 async function onShuffle() {
   if (animating) return;
   if (!deck || deck.length <= 1) return;
-  if (picks.length > 0) return; // mescola solo prima di iniziare a pescare
+  if (lockBoard || picks.length >= 3) return; // ✅ ora puoi mescolare fino a 2 scelte
 
   animating = true;
   DOM.shuffleBtn.disabled = true;
@@ -315,15 +315,12 @@ async function onShuffle() {
   const cards = Array.from(DOM.grid.querySelectorAll('.card'));
   if (cards.length <= 1) {
     animating = false;
-    DOM.shuffleBtn.disabled = false;
+    DOM.shuffleBtn.disabled = (picks.length >= 3);
     return;
   }
 
-  // 1) Animazione: tutte le carte si impilano sulla PRIMA carta
-  const gridRect = DOM.grid.getBoundingClientRect();
+  // 1) Animazione: impila tutto sulla prima carta
   const firstRect = cards[0].getBoundingClientRect();
-
-  // fai scivolare ogni carta verso la prima
   cards.forEach((el, i) => {
     const r = el.getBoundingClientRect();
     const dx = firstRect.left - r.left;
@@ -333,52 +330,50 @@ async function onShuffle() {
     el.style.transform = `translate(${dx}px, ${dy}px)`;
     el.style.zIndex = String(100 + i);
   });
-
-  // aspetta la fine della transizione
   await new Promise(res => setTimeout(res, 450));
 
-  // 2) Rimescola il deck (dati) mantenendo picked=false
-  fisherYatesShuffle(deck);
+  // 2) Rimescola SOLO le carte non ancora scelte, mantenendo fisse le posizioni di quelle scelte
+  const pickedPos = [];
+  const unpickedPos = [];
+  for (let i = 0; i < deck.length; i++) {
+    (deck[i].picked ? pickedPos : unpickedPos).push(i);
+  }
+  const unpickedCards = unpickedPos.map(i => deck[i]);
+  fisherYatesShuffle(unpickedCards);
 
-  // 3) Riordina gli elementi DOM per seguire il nuovo ordine del deck
+  const newDeck = new Array(deck.length);
+  pickedPos.forEach(pos => { newDeck[pos] = deck[pos]; });
+  unpickedPos.forEach((pos, idx) => { newDeck[pos] = unpickedCards[idx]; });
+  deck = newDeck;
+
+  // 3) Riordina il DOM secondo il nuovo deck (tag e index aggiornati)
   const byBase = new Map(cards.map(el => [el.dataset.base, el]));
   DOM.grid.innerHTML = '';
-
   deck.forEach((c, i) => {
     const el = byBase.get(c.base);
     if (!el) return;
-    // aggiorna etichetta e indice
     el.dataset.index = String(i);
     const tag = el.querySelector('.tag');
     if (tag) tag.textContent = `#${String(i + 1).padStart(2, '0')}`;
-    // rimuovi transition per impostare correttamente il FLIP successivo
     el.style.transition = 'none';
     DOM.grid.appendChild(el);
   });
 
-  // 4) Effetto “ridisponi”: parti impilato sulla nuova prima carta, poi espandi
+  // 4) Effetto ridisposizione: dal “pacco” si riallinea alla griglia
   const newFirst = DOM.grid.querySelector('.card');
   const pileRect = newFirst.getBoundingClientRect();
-
   DOM.grid.querySelectorAll('.card').forEach((el) => {
     const r = el.getBoundingClientRect();
     const dx = pileRect.left - r.left;
     const dy = pileRect.top  - r.top;
-    // parti già "impilato" (senza transizione)…
     el.style.transform  = `translate(${dx}px, ${dy}px)`;
     el.style.zIndex = '0';
   });
-
-  // forza un doppio frame per far “prendere” il nuovo transform senza transizione
   await nextFrame();
-
-  // …poi anima verso la posizione naturale (transform: none)
   DOM.grid.querySelectorAll('.card').forEach((el) => {
     el.style.transition = 'transform 400ms ease';
     el.style.transform  = 'translate(0, 0)';
   });
-
-  // attendi l’espansione
   await new Promise(res => setTimeout(res, 450));
 
   // pulizia
@@ -390,8 +385,10 @@ async function onShuffle() {
   });
 
   animating = false;
-  DOM.shuffleBtn.disabled = false;
+  // Finché non hai 3 carte, puoi continuare a mescolare
+  DOM.shuffleBtn.disabled = (picks.length >= 3);
 }
+
 
 
 
