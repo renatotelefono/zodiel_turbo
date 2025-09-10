@@ -275,3 +275,17 @@ body.lang-ok .topbar,
 body.lang-ok .layout{
   display: block;
 }
+/* Interpretazione: larghezza già gestita, ora allineamento giustificato */
+.reading-output{
+  text-align: justify !important;   /* bordi dx/sx allineati */
+  text-justify: inter-word;         /* distribuisce gli spazi tra parole */
+  text-align-last: left;            /* ultima riga allineata a sinistra */
+  hyphens: auto;                    /* sillabazione dove supportata */
+}
+
+/* se l'interpretazione è fatta di <p> o <li>, giustifica anche loro */
+.reading-output p,
+.reading-output li{
+  text-align: justify;
+  text-align-last: left;
+}
