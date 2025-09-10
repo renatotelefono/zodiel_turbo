@@ -91,7 +91,7 @@ app.post('/api/pdf', async (req, res) => {
     doc.pipe(res);
 
     // Titolo
-    doc.fontSize(20).text(lang === 'it' ? 'Interpretazione Tarocchi' : 'Tarot Reading', { align: 'center' });
+    //doc.fontSize(20).text(lang === 'it' ? 'Interpretazione Tarocchi' : 'Tarot Reading', { align: 'center' });
     doc.moveDown();
 
     // ================ COPERTINA CON LE TRE CARTE ================

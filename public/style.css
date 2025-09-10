@@ -110,6 +110,13 @@ img.reversed { transform: rotate(180deg); }
 .reading-output pre { white-space: pre-wrap; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono'; font-size: 20px; color:#e2e8f0; }
 
 .gate { position:fixed; inset:0; background:rgba(0,0,0,.8); display:flex; align-items:center; justify-content:center; z-index:10; }
-.gate-card { background:#0f172a; border:1px solid #1f2937; border-radius:12px; padding:20px; width: 520px; max-width: calc(100vw - 24px); text-align:center; }
+.gate-card{
+  background: transparent !important;
+  box-shadow: none !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  padding: 0;              /* opzionale: rimuove il “cuscino” interno */
+}
+
 .gate-actions { margin: 12px 0; display:flex; gap:12px; justify-content:center; }
 .hint { opacity:.8; font-size: 14px; }
