@@ -104,5 +104,18 @@
     <!-- IMPORTANTISSIMO: carica lo stesso script dell’app, così i bottoni funzionano come prima -->
     <audio id="player" preload="auto"></audio>
     <script src="./app.js"></script>
+  <script>
+  function startApp() {
+    document.body.classList.add('lang-ok');          // mostra topbar + layout
+    const gate = document.getElementById('langGate');
+    if (gate) gate.remove();                         // elimina l'overlay
+  }
+  document.getElementById('itBtn')?.addEventListener('click', startApp);
+  document.getElementById('enBtn')?.addEventListener('click', startApp);
+</script>
+
+  
+  
+  
   </body>
 </html>
