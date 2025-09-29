@@ -289,3 +289,23 @@ body.lang-ok .layout{
   text-align: justify;
   text-align-last: left;
 }
+.instructions {
+  cursor: default;        /* niente manina */
+  text-align: center;
+  font-size: 18px;        /* stesso font-size dei bottoni */
+  margin-bottom: 6px;
+  background: transparent; /* niente sfondo */
+  border: none;           /* niente bordo */
+  color: #f1f5f9;         /* stesso colore testo */
+  padding: 0;             /* niente padding */
+}
+
+/* di default nascosti */
+#instructions-it,
+#instructions-en {
+  display: none;
+}
+
+/* mostra solo quello giusto */
+body.lang-it #instructions-it { display: block; }
+body.lang-en #instructions-en { display: block; }

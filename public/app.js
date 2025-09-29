@@ -67,7 +67,10 @@
   DOM.pdfBtn.setAttribute('aria-label', DOM.pdfBtn.textContent);
   DOM.shuffleBtn.addEventListener('click', onShuffle);
   DOM.resetBtn.disabled = false;
-  resetAll();
+    resetAll();
+  document.body.classList.remove('lang-it','lang-en');
+document.body.classList.add(lang === 'it' ? 'lang-it' : 'lang-en');
+
 }
 
 

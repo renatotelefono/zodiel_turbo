@@ -37,16 +37,24 @@
   </head>
   <body>
     <div id="app">
-      <header class="topbar">
-        <h1 id="title">Tarocchi</h1>
-        <div class="actions">
-          <button id="resetBtn" class="btn" disabled>Reset</button>
-          <button id="shuffleBtn" class="btn" disabled>Mescola</button>
-          <button id="interpretBtn" class="btn primary" disabled>Interpretazione</button>
-          <button id="pauseBtn" class="btn" disabled>Pausa</button>
-          <button id="pdfBtn" class="btn" disabled>Genera PDF</button>
-        </div>
-      </header>
+   <header class="topbar">
+  <div id="instructions-it" class="instructions btn">
+    Clicca il pulsante "Mescola carte", scegline tre e poi clicca su "Interpretazione".
+  </div>
+  <div id="instructions-en" class="instructions btn">
+    Click the "Shuffle cards" button, choose three of them, and then click "Interpretation".
+  </div>
+
+  <h1 id="title">Tarocchi</h1>
+  <div class="actions">
+    <button id="resetBtn" class="btn" disabled>Reset</button>
+    <button id="shuffleBtn" class="btn" disabled>Mescola</button>
+    <button id="interpretBtn" class="btn primary" disabled>Interpretazione</button>
+    <button id="pauseBtn" class="btn" disabled>Pausa</button>
+    <button id="pdfBtn" class="btn" disabled>Genera PDF</button>
+  </div>
+</header>
+
 
       <!-- GATE LINGUA: ruota al centro, bottoni ai lati (stessi id di prima) -->
       <section id="langGate" class="gate">
