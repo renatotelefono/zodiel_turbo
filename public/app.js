@@ -27,6 +27,15 @@
     enBtn: document.getElementById('enBtn'),
     title: document.getElementById('title'),
     grid: document.getElementById('grid'),
+
+    instructionsBtn: document.getElementById('instructionsBtn'),
+    instructionsPanel: document.getElementById('instructionsPanel'),
+    instructionsContent: document.getElementById('instructionsContent'),
+    backBtn: document.getElementById('backBtn'),
+
+
+
+
     slots: [document.getElementById('slot0'), document.getElementById('slot1'), document.getElementById('slot2')],
     slotLabels: [document.getElementById('slot0label'), document.getElementById('slot1label'), document.getElementById('slot2label')],
     interpretBtn: document.getElementById('interpretBtn'),
@@ -50,6 +59,9 @@
   DOM.shuffleBtn.textContent = (lang === 'it') ? 'Mescola carte' : 'Shuffle deck';
   DOM.shuffleBtn.setAttribute('aria-label', DOM.shuffleBtn.textContent);
 
+  DOM.instructionsBtn.textContent = (lang === 'it') ? 'Istruzioni' : 'Instructions';
+  DOM.backBtn.textContent = (lang === 'it') ? 'Torna indietro' : 'Back';
+  DOM.instructionsBtn.disabled = false;
   
   DOM.langGate.style.display = 'none';
   DOM.title.textContent = (lang === 'it') ? 'Tarocchi' : 'Tarot';
@@ -186,6 +198,43 @@ document.body.classList.add(lang === 'it' ? 'lang-it' : 'lang-en');
     const s = base.replace(/_/g, ' ');
     return s.charAt(0).toUpperCase() + s.slice(1);
   }
+
+async function onInstructions() {
+    const fileUrl = (lang === 'it') ? '/Istruzioni.txt' : '/instructions.txt';
+    try {
+      const r = await fetch(fileUrl);
+      if (!r.ok) throw new Error(r.status);
+      const text = await r.text();
+
+
+     // Dividi il testo in frasi/paragrafi
+const paragraphs = text.split('.').map(p => p.trim()).filter(p => p.length > 0);
+
+// Ricostruisci l'HTML con un <p> per ogni frase
+DOM.instructionsContent.innerHTML = paragraphs
+  .map(p => `<p style="margin-bottom: 1em;">${p}.</p>`)
+  .join('');
+
+      
+      
+      
+      DOM.instructionsPanel.style.display = 'block';
+    } catch (e) {
+      DOM.instructionsContent.textContent = (lang === 'it')
+        ? 'Errore: impossibile caricare le istruzioni.'
+        : 'Error: cannot load instructions.';
+      DOM.instructionsPanel.style.display = 'block';
+    }
+  }
+
+  function onBack() {
+    DOM.instructionsPanel.style.display = 'none';
+  }
+
+
+
+
+
 
   async function onInterpret() {
     DOM.readingOutput.innerHTML = '';
@@ -406,4 +455,7 @@ function onReset() {
   DOM.interpretBtn.addEventListener('click', onInterpret);
   DOM.pauseBtn.addEventListener('click', onTogglePause);    
   DOM.pdfBtn.addEventListener('click', onPdf);
+  DOM.instructionsBtn.addEventListener('click', onInstructions);
+  DOM.backBtn.addEventListener('click', onBack);
+
 })();

@@ -1,0 +1,26 @@
+The three-card method is one of the simplest and most versatile tarot reading systems.
+
+How it works
+
+Shuffle, by pressing the "Shuffle cards" button: the site shuffles the deck for you.
+
+Draw: three cards are chosen by clicking on the back of the cards below.
+
+Interpret: click on the "Interpretation" button, each card takes a position with a precise meaning.
+ You will see the interpretation on screen and hear the voice reading.
+
+Classic meanings of the three positions:.
+
+First card (left): the past – represents the origins of the question, the causes or previous influences.
+
+Second card (center): the present – shows the current situation, the heart of the problem or the state of mind.
+
+Third card (right): the future – indicates the development, the direction in which the situation evolves, or the possible outcomes.
+
+At any time you can press the Pause button to stop the audio reading.
+
+If you want, at the end you can press the Generate Pdf button and the site will create a PDF version of the interpretation.
+
+At any time you can cancel by pressing the reset button.
+
+If you want to shuffle the cards, you can do it whenever you like.

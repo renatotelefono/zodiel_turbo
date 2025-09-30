@@ -7,23 +7,18 @@
 
     <!-- Stili dell’app -->
     <link rel="stylesheet" href="./style.css" />
-    <!-- Rotazione corona come nell’esempio index2 -->
     <link rel="stylesheet" href="./ruota.css" />
 
- <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B1SZLGV6DR"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-B1SZLGV6DR');
-  </script>
-
-
-
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-B1SZLGV6DR"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-B1SZLGV6DR');
+    </script>
 
     <style>
-      /* Layout per il gate lingua: bottoni ai lati, ruota al centro */
       .lang-row {
         display: flex;
         align-items: center;
@@ -31,69 +26,54 @@
         gap: 24px;
         flex-wrap: wrap;
       }
-      /* Ridimensiono la ruota dentro il gate */
       .lang-row .anello {
         width: min(92vw, 720px);
       }
-      /* Ri-uso le classi dei bottoni originali e mantengo gli stessi id */
       .btn.big { white-space: nowrap; }
-      /* Su mobile i bottoni finiscono sopra/sotto la ruota */
       @media (max-width: 800px){
         .lang-row { flex-direction: column; gap: 12px; }
       }
-
-      /* Il body in ruota.css è centrato: nel gate vogliamo rispettare il layout dell’app */
-      /* La regola seguente neutralizza l'effetto "place-items:center" SOLO dentro il gate */
       .gate { display: flex; align-items: center; justify-content: center; }
     </style>
   </head>
   <body>
     <div id="app">
-   <header class="topbar">
-  <div id="instructions-it" class="instructions btn">
-    Clicca il pulsante "Mescola carte", scegline 3 e poi clicca su "Interpretazione".
-  </div>
-  <div id="instructions-en" class="instructions btn">
-    Click the "Shuffle cards" button, choose three of them, and then click "Interpretation".
-  </div>
+      <header class="topbar">
+        <div id="instructions-it" class="instructions btn">
+          Clicca il pulsante "Mescola carte", scegline 3 e poi clicca su "Interpretazione".
+        </div>
+        <div id="instructions-en" class="instructions btn">
+          Click the "Shuffle cards" button, choose three of them, and then click "Interpretation".
+        </div>
 
-  <h1 id="title">Tarocchi</h1>
-  <div class="actions">
-    <button id="resetBtn" class="btn" disabled>Reset</button>
-    <button id="shuffleBtn" class="btn" disabled>Mescola</button>
-    <button id="interpretBtn" class="btn primary" disabled>Interpretazione</button>
-    <button id="pauseBtn" class="btn" disabled>Pausa</button>
-    <button id="pdfBtn" class="btn" disabled>Genera PDF</button>
-  </div>
-</header>
+        <h1 id="title">Tarocchi</h1>
+        <div class="actions">
+          <button id="instructionsBtn" class="btn" disabled>Istruzioni</button>
+          <button id="resetBtn" class="btn" disabled>Reset</button>
+          <button id="shuffleBtn" class="btn" disabled>Mescola</button>
+          <button id="interpretBtn" class="btn primary" disabled>Interpretazione</button>
+          <button id="pauseBtn" class="btn" disabled>Pausa</button>
+          <button id="pdfBtn" class="btn" disabled>Genera PDF</button>
+        </div>
+      </header>
 
-
-      <!-- GATE LINGUA: ruota al centro, bottoni ai lati (stessi id di prima) -->
+      <!-- GATE LINGUA -->
       <section id="langGate" class="gate">
         <div class="gate-card">
-          
-
           <div class="lang-row">
-            <!-- SINISTRA: Italiano -->
             <button id="itBtn" class="btn big">Italiano 🇮🇹</button>
-
-            <!-- CENTRO: Corona che ruota come in index2 (ruota.css) -->
             <figure class="viewport" aria-label="Corona dei Tarocchi">
               <div class="anello">
                 <img class="corona" src="../asset/tarot_corona.jpg" alt="Corona dei Tarocchi (22 settori)" />
                 <div class="foro" aria-hidden="true"></div>
               </div>
             </figure>
-
-            <!-- DESTRA: English -->
             <button id="enBtn" class="btn big">English 🇬🇧</button>
           </div>
-
-         
         </div>
       </section>
 
-      <!-- Resto dell’app (immutato) -->
+      <!-- Resto dell’app -->
       <main class="layout">
         <section class="slots">
           <div class="slot">
@@ -121,21 +101,24 @@
       </main>
     </div>
 
-    <!-- IMPORTANTISSIMO: carica lo stesso script dell’app, così i bottoni funzionano come prima -->
+    <!-- Pannello Istruzioni -->
+    <div id="instructionsPanel" style="display:none; position:fixed; top:0; left:0; 
+         width:100%; height:100%; background:rgba(0,0,0,0.8); color:#fff; 
+         overflow:auto; padding:20px; z-index:1000;">
+      <div id="instructionsContent" style="background:#222; padding:20px; border-radius:12px; max-width:800px; margin:auto;"></div>
+      <button id="backBtn" class="btn" style="margin-top:20px;">Torna indietro</button>
+    </div>
+
     <audio id="player" preload="auto"></audio>
     <script src="./app.js"></script>
-  <script>
-  function startApp() {
-    document.body.classList.add('lang-ok');          // mostra topbar + layout
-    const gate = document.getElementById('langGate');
-    if (gate) gate.remove();                         // elimina l'overlay
-  }
-  document.getElementById('itBtn')?.addEventListener('click', startApp);
-  document.getElementById('enBtn')?.addEventListener('click', startApp);
-</script>
-
-  
-  
-  
+    <script>
+      function startApp() {
+        document.body.classList.add('lang-ok');
+        const gate = document.getElementById('langGate');
+        if (gate) gate.remove();
+      }
+      document.getElementById('itBtn')?.addEventListener('click', startApp);
+      document.getElementById('enBtn')?.addEventListener('click', startApp);
+    </script>
   </body>
 </html>
