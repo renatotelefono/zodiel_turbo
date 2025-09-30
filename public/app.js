@@ -200,7 +200,7 @@ document.body.classList.add(lang === 'it' ? 'lang-it' : 'lang-en');
   }
 
 async function onInstructions() {
-    const fileUrl = (lang === 'it') ? '/Istruzioni.txt' : '/instructions.txt';
+    const fileUrl = (lang === 'it') ? '/Istruzioni.txt' : '/Instructions.txt';
     try {
       const r = await fetch(fileUrl);
       if (!r.ok) throw new Error(r.status);
