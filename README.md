@@ -51,4 +51,27 @@ tarot-reading-site/
 - **UI/Logica client**: `public/app.js` + `public/style.css` + `public/index.html`.
 - **PDF/serving asset**: `server/index.js`.
 
+## Deploy su Render
+
+Puoi pubblicare questo progetto su [Render](https://render.com) seguendo questi passaggi:
+
+1. **Crea un nuovo servizio Web** su Render collegando il tuo repository GitHub/GitLab.
+2. **Seleziona ambiente Node.js**.
+3. Imposta questi parametri:
+   - **Build Command**:  
+     ```bash
+     npm install
+     ```
+   - **Start Command**:  
+     ```bash
+     npm start
+     ```
+4. Assicurati che la directory `asset/` sia inclusa nel repository con tutte le immagini, descrizioni e audio necessari.
+5. Render esporrà l’app su un URL pubblico (`https://tuo-progetto.onrender.com`).
+
+
+attualmente il sito sta su render con login da tarocchi.italiani@gmail.com Tarocchi01@
+
+il nome del repository su github è ZODIEL_TURBO
+
 Buona lettura! 🔮
