@@ -3,9 +3,65 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Tarocchi — Lettura 3 carte</title>
 
-    <!-- Stili dell’app -->
+    <title>Lettura Tarocchi 3 Carte Online Gratis — Passato, Presente e Futuro | Zodiel.it</title>
+
+    <!-- Descrizione SEO -->
+    <meta name="description" content="Scopri gratuitamente cosa rivelano i Tarocchi con la lettura a 3 carte online. Interpreta passato, presente e futuro in modo semplice su Zodiel.it, l’oracolo digitale dei Tarocchi." />
+
+    <!-- Parole chiave SEO -->
+    <meta name="keywords" content="tarocchi, lettura tarocchi, carte tarocchi, tarocchi gratis, tarocchi online, lettura tarocchi gratis, tarocchi amore, tarocchi lavoro, tarocchi sì o no, lettura 3 carte, significato carte, oracolo online, divinazione, lettura carte online, interpretazione tarocchi, lettura tarocchi del giorno, Zodiel" />
+
+    <!-- Autore -->
+    <meta name="author" content="Zodiel.it" />
+
+    <!-- URL canonico -->
+    <link rel="canonical" href="https://www.zodiel.it/" />
+
+    <!-- Open Graph (Facebook, WhatsApp, ecc.) -->
+    <meta property="og:title" content="Lettura Tarocchi 3 Carte Online Gratis — Zodiel.it" />
+    <meta property="og:description" content="Fai ora la tua lettura dei Tarocchi a 3 carte gratis: scopri il significato del tuo passato, presente e futuro su Zodiel.it." />
+    <meta property="og:image" content="https://www.zodiel.it/asset/tarot_corona.jpg" />
+    <meta property="og:url" content="https://www.zodiel.it/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="it_IT" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Lettura Tarocchi 3 Carte Online Gratis — Zodiel.it" />
+    <meta name="twitter:description" content="Interpreta i Tarocchi online con la lettura gratuita a 3 carte: passato, presente e futuro. Solo su Zodiel.it." />
+    <meta name="twitter:image" content="https://www.zodiel.it/asset/tarot_corona.jpg" />
+    <meta name="twitter:site" content="@Zodiel" />
+
+    <!-- Dati strutturati JSON-LD (Schema.org) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Lettura Tarocchi 3 Carte",
+      "url": "https://www.zodiel.it",
+      "description": "Applicazione web gratuita per la lettura dei Tarocchi a 3 carte — passato, presente e futuro. Scopri il tuo destino su Zodiel.it.",
+      "applicationCategory": "DivinationApplication",
+      "operatingSystem": "All",
+      "inLanguage": "it",
+      "image": "https://www.zodiel.it/asset/tarot_corona.jpg",
+      "creator": {
+        "@type": "Organization",
+        "name": "Zodiel.it",
+        "url": "https://www.zodiel.it"
+      },
+      "potentialAction": {
+        "@type": "UseAction",
+        "target": "https://www.zodiel.it",
+        "name": "Lettura dei Tarocchi online"
+      }
+    }
+    </script>
+
+    <!-- Versione inglese -->
+    <link rel="alternate" hreflang="en" href="https://www.zodiel.it/en/" />
+
+    <!-- Stili -->
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="./ruota.css" />
 
@@ -34,6 +90,7 @@
         .lang-row { flex-direction: column; gap: 12px; }
       }
       .gate { display: flex; align-items: center; justify-content: center; }
+      .seo-section { max-width: 900px; margin: 40px auto; padding: 20px; text-align: center; line-height: 1.6; }
     </style>
   </head>
   <body>
@@ -46,7 +103,7 @@
           Click the "Shuffle cards" button, choose three of them, and then click "Interpretation".
         </div>
 
-        <h1 id="title">Tarocchi</h1>
+        <h1 id="title">Lettura Tarocchi Online Gratis</h1>
         <div class="actions">
           <button id="instructionsBtn" class="btn" disabled>Istruzioni</button>
           <button id="resetBtn" class="btn" disabled>Reset</button>
@@ -57,7 +114,7 @@
         </div>
       </header>
 
-      <!-- GATE LINGUA -->
+      <!-- Selettore lingua -->
       <section id="langGate" class="gate">
         <div class="gate-card">
           <div class="lang-row">
@@ -73,19 +130,19 @@
         </div>
       </section>
 
-      <!-- Resto dell’app -->
+      <!-- Gioco delle 3 carte -->
       <main class="layout">
         <section class="slots">
           <div class="slot">
-            <h3 id="slot0label">Passato</h3>
+            <h2 id="slot0label">Passato</h2>
             <div class="slot-card" id="slot0"></div>
           </div>
           <div class="slot">
-            <h3 id="slot1label">Presente</h3>
+            <h2 id="slot1label">Presente</h2>
             <div class="slot-card" id="slot1"></div>
           </div>
           <div class="slot">
-            <h3 id="slot2label">Futuro</h3>
+            <h2 id="slot2label">Futuro</h2>
             <div class="slot-card" id="slot2"></div>
           </div>
         </section>
@@ -95,8 +152,24 @@
         </section>
 
         <section class="reading">
-          <h2 id="readingTitle">Interpretazione</h2>
+          <h2 id="readingTitle">Interpretazione delle Carte</h2>
           <div id="readingOutput" class="reading-output"></div>
+        </section>
+
+        <!-- Sezione SEO visibile (contenuto ottimizzato per Google) -->
+        <section class="seo-section">
+          <h2>Tarocchi Online Gratuiti: scopri il tuo destino</h2>
+          <p>Benvenuto su <strong>Zodiel.it</strong>, l’app per la <em>lettura dei Tarocchi online gratis</em>. 
+          Con la nostra lettura a 3 carte puoi interpretare <strong>passato, presente e futuro</strong> in pochi clic. 
+          Scopri i significati dei <strong>Tarocchi dell’amore</strong>, del <strong>lavoro</strong> e della <strong>vita quotidiana</strong>, 
+          e lasciati guidare dal tuo intuito.</p>
+
+          <h3>Come funziona la lettura dei Tarocchi</h3>
+          <p>Clicca su “Mescola carte”, scegli tre carte e ottieni subito la tua interpretazione personalizzata. 
+          Ogni carta dei Tarocchi rivela un messaggio simbolico legato alle tue energie del momento: il passato mostra 
+          le radici, il presente svela le sfide attuali e il futuro indica le possibilità che ti attendono.</p>
+
+          <p>Prova ora la tua <strong>lettura dei Tarocchi online gratuita</strong> e scopri cosa ti riserva il destino con <strong>Zodiel.it</strong>.</p>
         </section>
       </main>
     </div>
