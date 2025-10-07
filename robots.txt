@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /node_modules/
+Disallow: /private/
+Disallow: /test/
+Allow: /
+
+Sitemap: https://www.zodiel.it/sitemap.xml
