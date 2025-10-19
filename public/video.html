@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Video Lettura Tarocchi</title>
+  <style>
+    body {
+      background: radial-gradient(circle at top, #222, #000);
+      color: #fff;
+      font-family: "Segoe UI", Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    h1 {
+      color: #ffd700;
+      text-shadow: 1px 1px 3px #000;
+      margin-bottom: 25px;
+      text-align: center;
+      font-size: 1.2rem;
+    }
+
+    /* Contenitore principale */
+    .media-row {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      width: 95%;
+      max-width: 1200px;
+    }
+
+    /* Riga con carta, video e bottoni laterali */
+    .media-top {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: nowrap;
+      width: 100%;
+      position: relative;
+    }
+
+    /* Bottoni laterali */
+    .side-button {
+      color: #ffd700;
+      text-decoration: none;
+      font-weight: bold;
+      border: 1px solid #ffd700;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5rem;
+      transition: all 0.2s ease;
+      background: rgba(0, 0, 0, 0.4);
+    }
+
+    .side-button:hover {
+      background-color: #ffd700;
+      color: #000;
+      box-shadow: 0 0 10px rgba(255, 215, 0, 0.6);
+    }
+
+    /* Video grande */
+    video {
+      width: 630px;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
+      background: #000;
+    }
+
+    /* Carta proporzionata */
+    img {
+      width: 221px;
+      height: auto;
+      aspect-ratio: 2.5 / 4;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(255, 215, 0, 0.4);
+      background: #000;
+      object-fit: contain;
+      flex-shrink: 0;
+    }
+
+    .reversed {
+      transform: rotate(180deg);
+    }
+
+    /* Descrizione */
+    pre {
+      width: 100%;
+      max-width: 900px;
+      background: rgba(0, 0, 0, 0.55);
+      padding: 20px;
+      border-radius: 10px;
+      white-space: pre-wrap;
+      line-height: 1.2;
+      font-size: 0.95rem;
+      color: #eee;
+      box-shadow: inset 0 0 8px rgba(255, 215, 0, 0.2);
+      overflow-y: auto;
+      max-height: 400px;
+      text-align: justify;
+    }
+
+    /* Responsive */
+    @media (max-width: 900px) {
+      .media-top {
+        flex-direction: column;
+        align-items: center;
+      }
+      .side-button {
+        position: static;
+        width: 50px;
+        height: 50px;
+        margin: 10px 0;
+      }
+      video {
+        width: 90%;
+        max-width: 630px;
+      }
+      img {
+        width: 180px;
+      }
+      pre {
+        width: 90%;
+        max-width: 600px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1 id="cardTitle">Carta del Passato</h1>
+
+  <div class="media-row">
+    <div class="media-top">
+      <a href="#" class="side-button" id="prevButton">&lt;</a>
+
+
+      <img id="cardImage" src="" alt="Carta" />
+      <video id="cardVideo" controls></video>
+
+      <a href="#" class="side-button" id="nextButton">&gt;</a>
+    </div>
+
+    <pre id="cardDescription">Caricamento descrizione...</pre>
+  </div>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const slot = params.get("slot") || "Passato";
+
+    const saved = localStorage.getItem("tarotReading");
+    if (!saved) {
+      document.getElementById("cardDescription").textContent =
+        "⚠️ Nessuna lettura trovata. Torna alla pagina principale.";
+    } else {
+      const { lang, picks } = JSON.parse(saved);
+
+      const slotOrder = lang === "it"
+        ? ["Passato", "Presente", "Futuro"]
+        : ["Past", "Present", "Future"];
+
+      const idx = slotOrder.indexOf(slot);
+      const p = picks.find(x => x.slotIndex === idx);
+
+      if (!p) {
+        document.getElementById("cardDescription").textContent =
+          "⚠️ Carta non trovata per questo slot.";
+      } else {
+        const base = p.base;
+        const reversed = p.reversed;
+        const imgPath = `/asset/img_${lang === 'it' ? 'it' : 'en'}/${base}.jpeg`;
+        const descPath = `/asset/descrizione_${lang === 'it' ? 'it' : 'en'}/${base}${reversed ? '_r_' : '_'}${slot}.md`;
+        const videoPath = `/asset/video_${lang === 'it' ? 'it' : 'en'}/${base}${reversed ? '_r_' : '_'}${slot}.mp4`;
+
+        document.getElementById("cardTitle").textContent =
+          `${slot}: ${base.replace(/_/g, ' ')}${reversed ? ' (rovesciata)' : ''}`;
+
+        const img = document.getElementById("cardImage");
+        img.src = imgPath;
+        if (reversed) img.classList.add("reversed");
+
+        const video = document.getElementById("cardVideo");
+        video.src = videoPath;
+
+        fetch(descPath)
+          .then(r => (r.ok ? r.text() : Promise.reject()))
+          .then(text => {
+            document.getElementById("cardDescription").textContent = text;
+          })
+          .catch(() => {
+            document.getElementById("cardDescription").textContent =
+              `⚠️ Descrizione non trovata (${descPath})`;
+          });
+
+        // Navigazione
+        const nextButton = document.getElementById("nextButton");
+        if (idx < slotOrder.length - 1) {
+          const nextSlot = slotOrder[idx + 1];
+          nextButton.href = `video.html?slot=${encodeURIComponent(nextSlot)}`;
+        } else {
+          nextButton.style.display = "none";
+        }
+        // Navigazione precedente (tra slot)
+const prevButton = document.getElementById("prevButton");
+if (idx > 0) {
+  const prevSlot = slotOrder[idx - 1];
+  prevButton.href = `video.html?slot=${encodeURIComponent(prevSlot)}`;
+} else {
+  // Se è la prima carta, usalo come "torna alla lettura"
+  prevButton.addEventListener("click", (e) => {
+    e.preventDefault();
+    localStorage.setItem("restoreFromVideo", "true");
+    window.close(); // oppure window.location.href = "index.html";
+  });
+}
+
+      }
+    }
+// Pulsante "Torna indietro"
+document.getElementById("prevButton").addEventListener("click", (e) => {
+  e.preventDefault();
+  // Indica alla pagina principale di ripristinare lo stato precedente
+  localStorage.setItem("restoreFromVideo", "true");
+
+  // Se la pagina principale era in un'altra scheda:
+  window.close();
+
+  // Se vuoi che si apra nella stessa scheda invece di chiudersi, usa questa riga al posto della precedente:
+  // window.location.href = "index.html";
+});
+
+
+  </script>
+</body>
+</html>

@@ -3,22 +3,13 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
     <title>Lettura Tarocchi 3 Carte Online Gratis — Passato, Presente e Futuro | Zodiel.it</title>
 
-    <!-- Descrizione SEO -->
     <meta name="description" content="Scopri gratuitamente cosa rivelano i Tarocchi con la lettura a 3 carte online. Interpreta passato, presente e futuro in modo semplice su Zodiel.it, l’oracolo digitale dei Tarocchi." />
-
-    <!-- Parole chiave SEO -->
     <meta name="keywords" content="tarocchi, lettura tarocchi, carte tarocchi, tarocchi gratis, tarocchi online, lettura tarocchi gratis, tarocchi amore, tarocchi lavoro, tarocchi sì o no, lettura 3 carte, significato carte, oracolo online, divinazione, lettura carte online, interpretazione tarocchi, lettura tarocchi del giorno, Zodiel" />
-
-    <!-- Autore -->
     <meta name="author" content="Zodiel.it" />
-
-    <!-- URL canonico -->
     <link rel="canonical" href="https://www.zodiel.it/" />
 
-    <!-- Open Graph (Facebook, WhatsApp, ecc.) -->
     <meta property="og:title" content="Lettura Tarocchi 3 Carte Online Gratis — Zodiel.it" />
     <meta property="og:description" content="Fai ora la tua lettura dei Tarocchi a 3 carte gratis: scopri il significato del tuo passato, presente e futuro su Zodiel.it." />
     <meta property="og:image" content="https://www.zodiel.it/asset/tarot_corona.jpg" />
@@ -26,46 +17,18 @@
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="it_IT" />
 
-    <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Lettura Tarocchi 3 Carte Online Gratis — Zodiel.it" />
     <meta name="twitter:description" content="Interpreta i Tarocchi online con la lettura gratuita a 3 carte: passato, presente e futuro. Solo su Zodiel.it." />
     <meta name="twitter:image" content="https://www.zodiel.it/asset/tarot_corona.jpg" />
     <meta name="twitter:site" content="@Zodiel" />
 
-    <!-- Dati strutturati JSON-LD (Schema.org) -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebApplication",
-      "name": "Lettura Tarocchi 3 Carte",
-      "url": "https://www.zodiel.it",
-      "description": "Applicazione web gratuita per la lettura dei Tarocchi a 3 carte — passato, presente e futuro. Scopri il tuo destino su Zodiel.it.",
-      "applicationCategory": "DivinationApplication",
-      "operatingSystem": "All",
-      "inLanguage": "it",
-      "image": "https://www.zodiel.it/asset/tarot_corona.jpg",
-      "creator": {
-        "@type": "Organization",
-        "name": "Zodiel.it",
-        "url": "https://www.zodiel.it"
-      },
-      "potentialAction": {
-        "@type": "UseAction",
-        "target": "https://www.zodiel.it",
-        "name": "Lettura dei Tarocchi online"
-      }
-    }
-    </script>
-
-    <!-- Versione inglese -->
     <link rel="alternate" hreflang="en" href="https://www.zodiel.it/en/" />
 
-    <!-- Stili -->
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="./ruota.css" />
 
-    <!-- Google tag (gtag.js) -->
+    <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-B1SZLGV6DR"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -82,55 +45,75 @@
         gap: 24px;
         flex-wrap: wrap;
       }
-      .lang-row .anello {
-        width: min(92vw, 720px);
-      }
+      .lang-row .anello { width: min(92vw, 720px); }
       .btn.big { white-space: nowrap; }
       @media (max-width: 800px){
         .lang-row { flex-direction: column; gap: 12px; }
       }
       .gate { display: flex; align-items: center; justify-content: center; }
       .seo-section { max-width: 900px; margin: 40px auto; padding: 20px; text-align: center; line-height: 1.6; }
+   #enBtn {
+  display: none !important;
+  pointer-events: none;
+  opacity: 0;
+}
+
+   
     </style>
   </head>
   <body>
     <div id="app">
       <header class="topbar">
         <div id="instructions-it" class="instructions btn">
-          Clicca il pulsante "Mescola carte", scegline 3 e poi clicca su "Interpretazione".
+          Clicca il pulsante "Mescola", scegline 3 e poi clicca su "Interpretazione".
         </div>
         <div id="instructions-en" class="instructions btn">
-          Click the "Shuffle cards" button, choose three of them, and then click "Interpretation".
+          Click the "Shuffle" button, choose three of them, and then click "Interpretation".
         </div>
 
         <h1 id="title">Lettura Tarocchi Online Gratis</h1>
         <div class="actions">
-          <button id="instructionsBtn" class="btn" disabled>Istruzioni</button>
-          <button id="resetBtn" class="btn" disabled>Reset</button>
+          <!-- SEMPRE attivi -->
+          <button id="instructionsBtn" class="btn">Istruzioni</button>
+          <button id="resetBtn" class="btn">Inizia</button>
+
+          <!-- Questi li gestiamo noi in base allo stato -->
           <button id="shuffleBtn" class="btn" disabled>Mescola</button>
-          <button id="interpretBtn" class="btn primary" disabled>Interpretazione</button>
-          <button id="pauseBtn" class="btn" disabled>Pausa</button>
+          
+          <button id="videoBtn" class="btn" disabled>Video</button>
+          
           <button id="pdfBtn" class="btn" disabled>Genera PDF</button>
         </div>
       </header>
 
-      <!-- Selettore lingua -->
+      <!-- Schermata di selezione lingua -->
       <section id="langGate" class="gate">
         <div class="gate-card">
-          <div class="lang-row">
-            <button id="itBtn" class="btn big">Italiano 🇮🇹</button>
-            <figure class="viewport" aria-label="Corona dei Tarocchi">
-              <div class="anello">
-                <img class="corona" src="../asset/tarot_corona.jpg" alt="Corona dei Tarocchi (22 settori)" />
-                <div class="foro" aria-hidden="true"></div>
-              </div>
-            </figure>
-            <button id="enBtn" class="btn big">English 🇬🇧</button>
-          </div>
+         <div class="lang-row">
+  <figure class="viewport" aria-label="Corona dei Tarocchi" style="position: relative;">
+    <div class="anello">
+      <img class="corona" src="../asset/tarot_corona.jpg" alt="Corona dei Tarocchi (22 settori)" />
+      <div class="foro" aria-hidden="true"></div>
+
+      <!-- Pulsante italiano centrato nel foro -->
+      <button id="itBtn" class="btn big" style="
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 10;
+      ">
+        Italiano 🇮🇹
+      </button>
+    </div>
+  </figure>
+  <button id="enBtn" class="btn big">English 🇬🇧</button>
+</div>
+
         </div>
       </section>
 
-      <!-- Gioco delle 3 carte -->
+      <!-- Sezioni principali -->
       <main class="layout">
         <section class="slots">
           <div class="slot">
@@ -156,42 +139,189 @@
           <div id="readingOutput" class="reading-output"></div>
         </section>
 
-        <!-- Sezione SEO visibile (contenuto ottimizzato per Google) -->
         <section class="seo-section">
           <h2>Tarocchi Online Gratuiti: scopri il tuo destino</h2>
           <p>Benvenuto su <strong>Zodiel.it</strong>, l’app per la <em>lettura dei Tarocchi online gratis</em>. 
-          Con la nostra lettura a 3 carte puoi interpretare <strong>passato, presente e futuro</strong> in pochi clic. 
-          Scopri i significati dei <strong>Tarocchi dell’amore</strong>, del <strong>lavoro</strong> e della <strong>vita quotidiana</strong>, 
-          e lasciati guidare dal tuo intuito.</p>
-
-          <h3>Come funziona la lettura dei Tarocchi</h3>
-          <p>Clicca su “Mescola carte”, scegli tre carte e ottieni subito la tua interpretazione personalizzata. 
-          Ogni carta dei Tarocchi rivela un messaggio simbolico legato alle tue energie del momento: il passato mostra 
-          le radici, il presente svela le sfide attuali e il futuro indica le possibilità che ti attendono.</p>
-
-          <p>Prova ora la tua <strong>lettura dei Tarocchi online gratuita</strong> e scopri cosa ti riserva il destino con <strong>Zodiel.it</strong>.</p>
+          Con la nostra lettura a 3 carte puoi interpretare <strong>passato, presente e futuro</strong> in pochi clic.</p>
         </section>
       </main>
     </div>
 
-    <!-- Pannello Istruzioni -->
-    <div id="instructionsPanel" style="display:none; position:fixed; top:0; left:0; 
-         width:100%; height:100%; background:rgba(0,0,0,0.8); color:#fff; 
-         overflow:auto; padding:20px; z-index:1000;">
+    <!-- Pannello istruzioni -->
+    <div id="instructionsPanel" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.8); color:#fff; overflow:auto; padding:20px; z-index:1000;">
       <div id="instructionsContent" style="background:#222; padding:20px; border-radius:12px; max-width:800px; margin:auto;"></div>
       <button id="backBtn" class="btn" style="margin-top:20px;">Torna indietro</button>
     </div>
 
+    <!-- Modal video (non usato per aprire video.html) -->
+    <div id="videoModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.8); z-index:2000; align-items:center; justify-content:center;">
+      <video id="videoPlayer" controls style="max-width:90%; max-height:90%; border-radius:12px;">
+        <source src="./asset/video_it/00_il_matto_Futuro.mp4" type="video/mp4" />
+        Il tuo browser non supporta la riproduzione video.
+      </video>
+    </div>
+
     <audio id="player" preload="auto"></audio>
     <script src="./app.js"></script>
+
+    <!-- Stato e logica di ripristino/reset -->
     <script>
-      function startApp() {
-        document.body.classList.add('lang-ok');
-        const gate = document.getElementById('langGate');
-        if (gate) gate.remove();
+      // --- utilità DOM ---
+      const $ = (id) => document.getElementById(id);
+
+      function enableChooseState() {
+        // Stato: scelta carte (nessuna selezione, si può mescolare e scegliere)
+        $("shuffleBtn").disabled = false;
+        $("interpretBtn").disabled = true;
+        $("videoBtn").disabled = true;
+        $("pauseBtn").disabled = true;
+        $("pdfBtn").disabled = true;
+
+        // Pulisci gli slot visivi
+        ["slot0","slot1","slot2"].forEach(id => { const el = $(id); if (el) el.innerHTML = ""; });
+        // Pulisci eventuale testo interpretazione
+        const out = $("readingOutput"); if (out) out.textContent = "";
       }
-      document.getElementById('itBtn')?.addEventListener('click', startApp);
-      document.getElementById('enBtn')?.addEventListener('click', startApp);
+
+      function renderPicked(picks, lang) {
+        picks.forEach((p, i) => {
+          const slot = $("slot"+i);
+          if (!slot) return;
+          const img = document.createElement("img");
+          img.src = `asset/img_${lang === "it" ? "it" : "en"}/${p.base}.jpeg`;
+          img.alt = p.base;
+          if (p.reversed) img.classList.add("reversed");
+          img.classList.add("card");
+          slot.innerHTML = "";
+          slot.appendChild(img);
+        });
+      }
+
+      function wireVideo(lang, picks) {
+        const btn = $("videoBtn");
+        if (!btn) return;
+        btn.onclick = () => {
+          const p = (window.picks && window.picks[0]) || (picks && picks[0]);
+          if (!p) return alert(lang === "it" ? "Devi prima fare l'interpretazione." : "Please run Interpretation first.");
+          const slot = lang === "it" ? "Passato" : "Past";
+          const url = `video.html?base=${encodeURIComponent(p.base)}&reversed=${p.reversed}&slot=${slot}`;
+          window.open(url, "_blank");
+        };
+      }
+
+      // --- avvio lingua (compatibile con struttura esistente) ---
+      function startApp() {
+        document.body.classList.add("lang-ok");
+        $("langGate")?.remove();
+        // All'avvio consentiamo di mescolare per scegliere
+        enableChooseState();
+      }
+     $("itBtn")?.addEventListener("click", () => {
+  if (typeof window.initLang === "function") window.initLang("it");
+  else startApp();
+});
+$("enBtn")?.addEventListener("click", () => {
+  if (typeof window.initLang === "function") window.initLang("en");
+  else startApp();
+});
+
+
+      // --- ISTRUZIONI sempre attive (qui solo esempio apertura pannello se lo usi) ---
+      $("instructionsBtn")?.addEventListener("click", () => {
+        const panel = $("instructionsPanel");
+        if (panel) panel.style.display = "block";
+      });
+      $("backBtn")?.addEventListener("click", () => {
+        const panel = $("instructionsPanel");
+        if (panel) panel.style.display = "none";
+      });
+
+      // --- RESET: torna alla situazione di scegliere le carte ---
+      $("resetBtn")?.addEventListener("click", () => {
+        // 1) pulizia stato persistente
+        localStorage.removeItem("tarotReading");
+        localStorage.removeItem("restoreFromVideo");
+
+        // 2) azzera stato in memoria
+        window.picks = [];
+        // se app.js espone una funzione di reset, usiamola
+        if (typeof window.resetGame === "function") {
+          try { window.resetGame(); } catch(e) {}
+        }
+
+        // 3) se la lingua è già attiva, restiamo nella pagina di gioco;
+        // altrimenti mostriamo il gate lingua pronto per iniziare
+        if (!document.body.classList.contains("lang-ok")) {
+          // torni alla prima schermata (selezione lingua)
+          // qui non ricarico la pagina per non perdere telemetria ecc.
+        }
+
+        // 4) abilita la situazione “scegli le carte”
+        enableChooseState();
+      });
+
+      // --- RIPRISTINO dopo ritorno da video.html ---
+      window.addEventListener("DOMContentLoaded", () => {
+        // Istruzioni/Reset sempre abilitati
+        $("instructionsBtn").disabled = false;
+        $("resetBtn").disabled = false;
+
+        const fromVideo = localStorage.getItem("restoreFromVideo") === "true";
+        if (!fromVideo) return;
+
+        localStorage.removeItem("restoreFromVideo");
+        const saved = localStorage.getItem("tarotReading");
+        if (!saved) { enableChooseState(); return; }
+
+        try {
+          const { lang, picks } = JSON.parse(saved);
+          if (!Array.isArray(picks) || picks.length !== 3) { enableChooseState(); return; }
+
+          // lingua già attiva
+          document.body.classList.add("lang-ok");
+          $("langGate")?.remove();
+
+          // ripristina variabile globale e UI
+          window.picks = picks;
+          renderPicked(picks, lang);
+
+          // riabilita bottoni coerenti con lettura già fatta
+          $("shuffleBtn").disabled = false;        // puoi comunque rimescolare se vuoi ripartire
+          $("interpretBtn").disabled = false;
+          $("videoBtn").disabled = false;
+          $("pauseBtn").disabled = true;
+          $("pdfBtn").disabled = false;
+
+          // azione Video identica a prima
+          wireVideo(lang, picks);
+        } catch (e) {
+          enableChooseState();
+        }
+      });
+
+      // --- fallback: se sei già in gioco e premi “Video” senza ripristino ---
+      (function bootstrapVideoButton() {
+        const btn = $("videoBtn");
+        if (!btn) return;
+        btn.onclick = () => {
+          const saved = localStorage.getItem("tarotReading");
+          if (!saved && !(window.picks && window.picks[0])) {
+            return alert("Devi prima fare l'interpretazione.");
+          }
+          let lang = "it", p0 = window.picks && window.picks[0];
+          if (!p0 && saved) {
+            try {
+              const obj = JSON.parse(saved);
+              lang = obj.lang || "it";
+              p0 = obj.picks && obj.picks[0];
+            } catch {}
+          }
+          if (!p0) return alert("Devi prima fare l'interpretazione.");
+          const slot = lang === "it" ? "Passato" : "Past";
+          const url = `video.html?base=${encodeURIComponent(p0.base)}&reversed=${p0.reversed}&slot=${slot}`;
+          window.open(url, "_blank");
+        };
+      })();
     </script>
   </body>
 </html>
